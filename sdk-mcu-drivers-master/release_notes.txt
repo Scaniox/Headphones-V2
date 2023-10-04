@@ -1,0 +1,488 @@
+Cirrus Logic Alt-OS Driver SDK
+Release Notes
+
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v4.13.0
+Date: 2022/03/12
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-2615] cs47l35:  Add bridge support
+[SQA-2627] cs35l41:  Add bridge support
+[SQA-2629] bridge:  Added integration documentation
+[SQA-2648] cs40l26:  Changed the current RTH structure to support chirp and half-cycle
+[SQA-2648] cs40l26:  Updated to the example waveforms and LED status for holdout example
+
+Fixed Bugs:
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v4.12.0
+Date: 2022/02/28
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-2402] cs40l26:  added support for the Holdout hardware platform
+[SQA-2496] cs40l26:  added initial support for Run-Time Haptics (RTH)
+[SQA-2620] Added driver for cs35l42 to support dsp-bypass
+
+Fixed Bugs:
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v4.11.0
+Date: 2022/02/04
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+Added cs47l63 driver
+firmware_converter:  added support for loading arbitrary binary blobs
+bridge:  Move smcio.py and bridge.c to use binary instead of ASCII
+bridge:  added message protocol version between MCU and agent
+bridge:  variable BlockWrite chunk size
+bridge:  Improve smcio packet encapsulation and bridge format
+
+Fixed Bugs:
+bridge:  fixed timeout & speed args when creating serial com port
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v4.10.0
+Date: 2021/11/12
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-2470] Bridge: Add more flexibile naming of bridge systems
+[SQA-2534] firmware_converter: skip 'DUMMY' symbols for export cmd
+
+Fixed Bugs:
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v4.9.0
+Date: 2021/11/02
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-2534] firmware_converter: remove duplicate and "DUMMY" symbols from firmware symbol header file
+[SQA-2409] L25 - added 'live_oak' makefile and hardware target
+[SQA-2533] cs47l35: Improve opus ringbuffer init
+[SQA-2409] Added create_ide_projects to create IDE projects
+[SQA-2409] Update build system to support multiple HW platforms
+
+Fixed Bugs:
+[SQA-2462] L26 - Fixed race condition reading DSP state transition.
+[SQA-2462] L26 - Fixed failure calling called power(state) while in the same state returning FAIL.
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v4.8.0
+Date: 2021/10/19
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-2197] cs47l63: Add errata
+[SQA-2304] cs47l67: Add SPI flash read and write commands
+[SQA-2353] cs47l67: wisce_script_converer: Add support for processing SCS's activity output
+[SQA-2501] wisce_script_converter: should return 0 instead of None
+[SQA-2353] wisce_script_converter: SCS CSV activity output Add unit-test
+[SQA-2353] wisce_script_converter: Add support for SCS's CSV activity output
+[SQA-2473] wisce_script_converter: Fix -s option with c_functions output
+[SQA-2197] cs47l63: Add patches
+[SQA-2498] firmware_converter: Fix erroneous space in FWID when <6
+[SQA-2468] cs47l35: Update silkcoder to 1.1.3
+[SQA-2476] common: bridge: keep getting data from bridge file until newline
+[SQA-2467] common: Only release a packet to fifo consumers when complete
+[SQA-2453] Switch 'is' operations to '==' for literals
+[SQA-2452] Fix double free in bsp_dut_boot
+[SQA-2304] Add SPI flash read and write commands
+
+
+Fixed Bugs:
+[SQA-2473] wisce_script_converter: the -s option does not work with c_functions output
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v4.7.0
+Date: 2021/08/27
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-2041] Added cs40l26 driver for ROM mode
+[SQA-2376] cs47l35: Update to latest Opus firmware
+[SQA-2373] firmware_converter: Add no-sym-table option
+[SQA-2385] firmware_converter: Add --sym-partition option
+[SQA-2417] wisce_script_converter: add standalone comments to c_array
+[SQA-2368] cs47l67: Make mandatory stdout/bridge filenames optional arguments
+[SQA-2354] wisce_script_converter: change c_array size definition
+
+Fixed Bugs:
+[SQA-2375] bridge: make Ctrl+C stop the bridge
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v4.6.0
+Date: 2021/08/06
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-2324] L67: free up some more memory after boot complete
+[SQA-2324] L63, L67: FLL code make more efficient
+[SQA-2383] L35:  Add SC Voice and route mic audio through it to Opus
+[SQA-2365] CS47L63: Add BoardHardwareID tags for bridge xml files
+[SQA-2354] L67, L63 - Ported to regmap
+[SQA-2387] L25 - added comment to cs40l25_power to clarify power_down
+[SQA-2356] Renamed all fw_* folders to fw
+[SQA-2386] L25 - gpio_detect is sampled only at fw init
+[SQA-2320] L25 - added AN0511R1 PDF
+[SQA-2320] L25 - made wrapper for write_acked_fw_control
+[SQA-2369] Bridge: autodetect com port for Windows
+[SQA-2352] wisce_script_converter: add a comment when loading commands from another file
+[SQA-2354] wisce_script_converter: alternative c_array format.
+[SQA-2354] L35, L15 - Ported to regmap
+
+Fixed Bugs:
+[SQA-2386] L25 - Fix update of GPIO_BUTTONDETECT
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v4.5.0
+Date: 2021/07/15
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-1539] Shortened REGMAP_GET_CP_CONFIG to REGMAP_GET_CP
+[SQA-2362] firmware_converter - added option to check WMDR fw revision against WMFW
+[SQA-2320] L25 - ported to regmap, refactored unused code
+[SQA-2350] L67 - Add bridge support
+[SQA-2299] bridge/smcio: Changes to improve performance
+[SQA-2302] L67 - Example code for E2E communication
+[SQA-2322] L67 - test for configuring already active FLL
+
+Fixed Bugs:
+[SQA-2346] firmware_converter - binary output misses image version and has incorrect checksum
+[SQA-2319] L25 - No method for ReDC-Compensation
+[SQA-2372] Bridge: Fix agent does not handle multi-chip on block-writes
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v4.4.0
+Date: 2021/06/25
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-2085] Added regmap common module
+[SQA-1554] L41 - ported to regmap
+[SQA-2320] L41 driver refactored unused functionality
+[SQA-2061] Added WISCE/StudioBridge target implementation, including virtual register map
+[SQA-2300] CS47L67 - single FreeRTOS project, support for M2 minicard
+[SQA-2315] wisce_script_converter - support for named lookups
+[SQA-2314] wisce_script_converter - support for LOAD commands
+Support for CS40L30 driver removed
+
+Fixed Bugs:
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v4.3.0
+Date: 2021/06/02
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-2294] bridge_agent made more robust
+
+Fixed Bugs:
+[SQA-2316] L41 - was calling notification_cb twice
+[SQA-2313] wisce_script_converter - rmodw fix
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v4.2.0
+Date: 2021/05/19
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+L25 - Added support for 8kHz I2S streaming
+[SQA-2061] Bridge - added example Python code to demonstrate WISCEBridge
+[SQA-2122] Added Git submodule for STM32F4Cube for building example projects
+[SQA-2122] Deprecated use of component versions - all references now to SDK version
+[SQA-2057] wisce_script_converter - added option for C function output
+
+Fixed Bugs:
+[SQA-2282] L41 - Fixed bug in wake from hibernate
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v4.1.0
+Date: 2021/04/30
+
+Component Driver Versions:
+CS35L41 - v4.1.0
+CS40L25 - v2.3.0
+CS47L15 - v2.1.0
+CS40L30 - v0.1.0
+
+Component Tool Versions:
+firmware_converter - v3.2.0
+wisce_script_converter - v1.2.0
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-2043] L15 - new FLL api
+[SQA-1986] L15 - MP3 compressed upload
+[SQA-1746] L41 - Add GPIO set
+[SQA-1695] L25, L41, L30 - deprecated create_syscfg_regs.exe
+[SQA-1695] L25, L41 - update register read/write API regmap functions public
+[SQA-1695] L25 - update main.c to conform to appnote flowchart
+[SQA-2080] firmware_converter - Automatically update correct year in copyright comments
+[SQA-2123] Make fw_img files at compile time
+[SQA-2248] L30 - deprecate control() API, update to latest FW Drop 37
+fw_img: Rename fw_img_v1 files to fw_img
+[SQA-2248] L30/L25 - fixed freertos main() ordering
+
+Fixed Bugs:
+[SQA-2042] L25 - fixed bug in cs40l25_power, cs40l25_update_haptic_config
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v3.1.0
+Date: 2020/12/21
+
+Component Driver Versions:
+CS35L41 - v3.1.0
+CS40L25 - v2.1.0
+CS47L15 - v1.0.0
+
+Component Tool Versions:
+firmware_converter - v3.1.0
+wisce_script_converter - v1.1.0
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-1936] fw_img: Add fw_img v2
+[SQA-1977] Implement first release of CS47L15 driver
+[SQA-1995] L41 - Implemented fast Fs switching
+
+Fixed Bugs:
+None
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v3.0.0
+Date: 2020/10/19
+
+Component Driver Versions:
+CS35L41 - v3.0.0
+CS40L25 - v2.0.0
+
+Component Tool Versions:
+firmware_converter - v3.0.0
+wisce_script_converter - v1.0.0
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-1829] Fixed use of malloc in FreeRTOS example
+[SQA-1869] L41 - Update errata per latest Linux driver B2 errata
+[SQA-1870] Added WISCE script workflow - wisce_script_converter
+[SQA-1872] firmware_converter - fw_img_v1 output header and source
+[SQA-1874] L41 - BSP boot using separate fw_img for FW, TUNE, CAL
+[SQA-1880] L41 - fixed BSP mixing/added set dig gain
+[SQA-1880] L41 - read CAL_R even if failed
+[SQA-1889] Standardized *_control() API and hardware register/firmware control access
+[SQA-1889] L25 - Move haptic trigger/config code from BSP to driver
+[SQA-1892] All drivers - added helpers, removed fa_list[]
+[SQA-1893] firmware_converter - can specify sym-output
+[SQA-1901] Created Extended Public API *_ext.h for algo-specific API
+[SQA-1905] firmware_converter - added generic FW algo symbol
+[SQA-1913] L41 - add Ext API to get GPI level
+[SQA-1914] L25 - Bypass DSP if FW doesn't support I2S streaming
+[SQA-1830] Changed the license sections to Apache 2.0
+
+Fixed Bugs:
+[SQA-1868] L41 - Fixed Calibration always return 0x2
+[SQA-1870] Fix printf bug in create_syscfg_regs
+[SQA-1896] L25 - Removed get_dsp_status unused cal data members
+[SQA-1902] L25 - Fixed boot IRQMASKSEQ config
+[SQA-1905] L25 - change I2S streaming to use CLAB instead of DF0_CLAB FW
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v2.2.0
+Date: 2020/09/08
+
+Component Driver Versions:
+CS35L41 - v2.1.0
+CS40L25 - v1.1.0
+
+Component Tool Versions:
+firmware_converter - v2.4.0
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-1899] firmware_converter - added exporting to JSON
+[SQA-1900] firmware_converter - added cs47l66 memory map
+
+Fixed Bugs:
+None
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v2.1.0
+Date: 2020/07/24
+
+Component Driver Versions:
+CS35L41 - v2.1.0
+CS40L25 - v1.1.0
+
+Component Tool Versions:
+firmware_converter - v2.3.0
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-1831] Added otp_unpacker library to L41 codebase
+[SQA-1827] Refactor common create_syscfg_regs code / Optimized I2C transactions when writing syscfg_regs
+[SQA-1825] Consolidated common BSP source / Removed toggle_gpio from bsp_driver_if_t
+[SQA-1705] firmware_converter - added binary output option for 'fw_img_v1'
+[SQA-1839] firmware_converter - added WMDR-only output to 'fw_img_v1'
+[SQA-1841] firmware_converter - add sym.h generation to 'fw_img_v1'
+[SQA-1847] firmware_converter - added support for absolute addressing blocks
+
+
+Fixed Bugs:
+None
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v2.0.0
+Date: 2020/06/30
+
+Component Driver Versions:
+CS35L41 - v2.0.0
+CS40L25 - v1.0.0
+
+Component Tool Versions:
+firmware_converter - v2.2.0
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features/Changes:
+[SQA-1813] L41 - Fully migrate to the 'minimal' architecture
+[SQA-1795] L25 - fully convert driver to 'minimal' architecture
+[SQA-1802] firmware_converter exports version and CLI call to header
+[SQA-1806] L25 - Update to use fw_img_v1 for booting
+
+Fixed Bugs:
+[SQA-1798] firmware_converter crashes for Informational Text Block
+[SQA-1793] L25 - field_access_set does not ack correctly
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v1.2.0
+Date: 2020/06/12
+
+Component Driver Versions:
+CS35L41 - v1.2.0
+CS40L25 - v0.2.0
+
+Component Tool Versions:
+firmware_converter - v2.0.1
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features:
+[SQA-1706] Add Hibernation support in L41 driver
+
+Fixed Bugs:
+[SQA-1767] firmware_converter - fixed adding of suffix to header file
+
+Changes:
+None
+
+=============================================================================
+=============================================================================
+Summary:
+This is the release of Alt-OS Driver SDK v1.1.0
+Date: 2020/05/22
+
+Component Driver Versions:
+CS35L41 - v1.1.0
+CS40L25 - v0.2.0
+
+Component Tool Versions:
+firmware_converter - v2.0.0
+
+Architectures/Compilers Used:
+GNU Arm Embedded Toolchain: arm-none-eabi-gcc -mcpu=cortex-m4
+
+New Features:
+[SQA-1541] Prince-H driver - Can enter/exit Standby and Hibernation
+[SQA-1558] Develop power() API
+[SQA-1559] Add hibernation-related config to config structure
+[SQA-1560] Add hibernation prep to boot()
+[SQA-1567] Add handling of Prince-H events, including release from Haptic-Safe Mode
+[SQA-1651] Add POWERONSEQUENCE support at config and runtime
+[SQA-1722] Add support for Dynamic F0 and ReDC
+[SQA-1726] Add support for CS40L25B DEVID
+
+Fixed Bugs:
+None
+
+Changes:
+None
+
+=============================================================================
