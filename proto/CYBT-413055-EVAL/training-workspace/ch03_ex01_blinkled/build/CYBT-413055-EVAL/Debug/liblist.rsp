@@ -1,0 +1,12 @@
+../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/libraries/prebuilt/graphic_lib.a
+../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/libraries/prebuilt/mesh_optimized_continuous_scan_lib.a
+../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/libraries/prebuilt/wiced_app_watchdog_lib.a
+../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/libraries/prebuilt/wiced_audio_source_lib.a
+../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/libraries/prebuilt/wiced_external_pa_lib.a
+../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/libraries/prebuilt/wiced_hci_uart_lib.a
+../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/libraries/prebuilt/wiced_hidd_lib.a
+../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/libraries/prebuilt/wiced_memory_pre_init_lib.a
+../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/libraries/prebuilt/wiced_ptu_lib.a
+../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/libraries/prebuilt/wiced_rtc_lib.a
+../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/libraries/prebuilt/wiced_std_lib.a
+../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/libraries/prebuilt/wiced_uart_raw_mode_lib.a

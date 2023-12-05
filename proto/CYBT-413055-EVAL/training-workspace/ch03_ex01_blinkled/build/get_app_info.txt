@@ -1,0 +1,132 @@
+make[1]: Entering directory '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/training-workspace/ch03_ex01_blinkled'
+CYBT-413055-EVAL.mk: ../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0/CYBT-413055-EVAL.mk
+
+INFO: The build support (base-library such as psoc6make) is referencing a deprecated tools variable. Tools update/patch feature will not work with this version. Update it to a newer version to use this feature.
+MTB_ADDITIONAL_DEVICES=
+
+=======================================
+IDE variables
+=======================================
+CY_PROTOCOL=2
+APP_NAME=app
+LIB_NAME=
+TARGET=CYBT-413055-EVAL
+TARGET_DEVICE=CYBT-413055-02
+CONFIGURATOR_FILES=../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0/COMPONENT_bsp_design_modus/design.modus
+SUPPORTED_TOOL_TYPES=BTSpy
+CY_TOOLS_PATH=C:/Users/alexl/ModusToolbox/tools_3.1
+CY_GETLIBS_OFFLINE=
+CY_GETLIBS_PATH=C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/training-workspace/ch03_ex01_blinkled/libs
+CY_GETLIBS_DEPS_PATH=C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/training-workspace/ch03_ex01_blinkled/deps
+CY_GETLIBS_CACHE_PATH=
+CY_GETLIBS_OFFLINE_PATH=
+SHAREDLIBS_ROOT=
+SHAREDLIBS=
+SHAREDLIBS_FILES=
+CY_DEPENDENT_PROJECTS=
+CY_GETLIBS_SHARED_PATH=../
+CY_GETLIBS_SHARED_NAME=mtb_shared
+SEARCH=../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0 ../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2 ../mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-common/release-v4.2.1 ../mtb_shared/wiced_btsdk/dev-kit/btsdk-include/release-v4.4.2 ../mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0 ../mtb_shared/wiced_btsdk/tools/btsdk-utils/release-v4.4.1 ../mtb_shared/core-make/release-v1.9.1
+FLOW_VERSION=2
+
+=======================================
+User: Basic configuration variables
+=======================================
+TARGET=CYBT-413055-EVAL
+APPNAME=app
+LIBNAME=
+TOOLCHAIN=GCC_ARM
+CONFIG=Debug
+VERBOSE=
+
+=======================================
+User: Advanced configuration variables
+=======================================
+SOURCES=
+INCLUDES=
+DEFINES=
+VFP_SELECT=
+CFLAGS=
+ASFLAGS=
+LDFLAGS=
+LDLIBS=
+LINKER_SCRIPT=
+PREBUILD=
+POSTBUILD=
+COMPONENTS=bsp_design_modus MW_TARGET_CYBT_413055_EVAL MW_20719B2 MW_BTSDK_COMMON MW_BTSDK_INCLUDE MW_BTSDK_TOOLS MW_BTSDK_UTILS MW_CORE_MAKE 20719B2  btstack_v1
+DISABLE_COMPONENTS=CY_DEFAULT_COMPONENT
+DEPENDENT_LIB_PATHS=
+DEPENDENT_APP_PATHS=
+SEARCH=../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0 ../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2 ../mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-common/release-v4.2.1 ../mtb_shared/wiced_btsdk/dev-kit/btsdk-include/release-v4.4.2 ../mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0 ../mtb_shared/wiced_btsdk/tools/btsdk-utils/release-v4.4.1 ../mtb_shared/core-make/release-v1.9.1
+IMPORT_PATH=
+CONVERSION_PATH=
+CONVERSION_TYPE=local
+FORCE=
+
+=======================================
+User: BSP variables
+=======================================
+DEVICE=CYBT-413055-02
+TARGET_GEN=
+DEVICE_GEN=CYBT-413055-02
+
+=======================================
+User: Getlibs variables
+=======================================
+CY_GETLIBS_NO_CACHE=
+CY_GETLIBS_OFFLINE=
+CY_GETLIBS_PATH=C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/training-workspace/ch03_ex01_blinkled/libs
+CY_GETLIBS_DEPS_PATH=C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/training-workspace/ch03_ex01_blinkled/deps
+CY_GETLIBS_CACHE_PATH=
+CY_GETLIBS_OFFLINE_PATH=
+CY_GETLIBS_SEARCH_PATH=
+CY_GETLIBS_SHARED_PATH=../
+CY_GETLIBS_SHARED_NAME=mtb_shared
+
+=======================================
+User: Path variables
+=======================================
+CY_APP_PATH=.
+CY_BASELIB_PATH=../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2
+CY_BASELIB_CORE_PATH=../mtb_shared/core-make/release-v1.9.1
+CY_EXTAPP_PATH=
+CY_DEVICESUPPORT_PATH=
+CY_COMPILER_PATH=
+CY_TOOLS_DIR=C:/Users/alexl/ModusToolbox/tools_3.1
+CY_BUILD_LOCATION=
+CY_PYTHON_PATH=
+TOOLCHAIN_MK_PATH=
+
+=======================================
+User: Miscellaneous variables
+=======================================
+CY_IGNORE=./build ../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/docs ../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/personalities ../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/udd ../mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0/Linux64 ../mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0/OSX ../mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0/Windows ../mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0/aft ../mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0/factory_config ../mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0/fetch_firmware ../mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0/get_com_port ../mtb_shared/wiced_btsdk/tools/btsdk-utils/release-v4.4.1/BTSpy ../mtb_shared/wiced_btsdk/tools/btsdk-utils/release-v4.4.1/DfuMeta ../mtb_shared/wiced_btsdk/tools/btsdk-utils/release-v4.4.1/ecdsa256 ../mtb_shared/wiced_btsdk/tools/btsdk-utils/release-v4.4.1/wmbt ../mtb_shared/core-make/release-v1.9.1/make
+CY_SKIP_RECIPE=
+CY_SKIP_CDB=
+CY_EXTRA_INCLUDES=
+CY_LIBS_SEARCH_DEPTH=8
+CY_UTILS_SEARCH_DEPTH=8
+CY_IDE_PRJNAME=
+CY_CONFIG_FILE_EXT=modus
+CY_SUPPORTED_TOOL_TYPES=device-configurator bt-configurator BTSpy ClientControl
+
+=======================================
+Internal variables
+=======================================
+CY_INTERNAL_BUILD_LOC=C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/training-workspace/ch03_ex01_blinkled/build
+CY_INTERNAL_APPLOC=C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/training-workspace/ch03_ex01_blinkled
+CY_DEVICESUPPORT_SEARCH_PATH=../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/devicesupport.xml
+CC=C:/Users/alexl/ModusToolbox/tools_3.1//bin/arm-none-eabi-gcc
+CXX=g++
+AS=C:/Users/alexl/ModusToolbox/tools_3.1//bin/arm-none-eabi-gcc
+AR=C:/Users/alexl/ModusToolbox/tools_3.1//bin/arm-none-eabi-ar
+LD=C:/Users/alexl/ModusToolbox/tools_3.1//bin/arm-none-eabi-gcc
+
+=======================================
+Tools list
+=======================================
+CY_TOOL_cfg-backend-cli_BASE=
+CY_TOOL_cfg-backend-cli_EXE=
+CY_TOOL_make_BASE=C:/Users/alexl/ModusToolbox/tools_3.1/make
+
+make[1]: Leaving directory '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/training-workspace/ch03_ex01_blinkled'
