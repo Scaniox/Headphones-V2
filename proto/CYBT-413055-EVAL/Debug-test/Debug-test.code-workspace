@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.s": "avr",
+			"wiced_bt_codec_cs47l35.h": "c"
+		}
+	}
+}

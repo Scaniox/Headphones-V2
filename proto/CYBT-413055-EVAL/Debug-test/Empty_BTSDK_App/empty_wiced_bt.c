@@ -309,9 +309,9 @@ void app_main() {
 	while(1){
 		for(int _=0;_<c;_++){
 			wiced_hal_gpio_set_pin_output(WICED_GPIO_PIN_LED_2, GPIO_PIN_OUTPUT_LOW);
-			wiced_rtos_delay_milliseconds(100, ALLOW_THREAD_TO_SLEEP);
+			wiced_rtos_delay_milliseconds(50, ALLOW_THREAD_TO_SLEEP);
 			wiced_hal_gpio_set_pin_output(WICED_GPIO_PIN_LED_2, GPIO_PIN_OUTPUT_HIGH);
-			wiced_rtos_delay_milliseconds(100, ALLOW_THREAD_TO_SLEEP);
+			wiced_rtos_delay_milliseconds(50, ALLOW_THREAD_TO_SLEEP);
 		}
 
 		wiced_rtos_delay_milliseconds(500, ALLOW_THREAD_TO_SLEEP);

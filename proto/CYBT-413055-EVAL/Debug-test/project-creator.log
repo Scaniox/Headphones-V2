@@ -1,7 +1,7 @@
 Loading the ModusToolbox Technology Packs and Early Access Packs
 Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
 Loading the tools information
-Finished loading the tools information (35 ms)
+Finished loading the tools information (33 ms)
 Loading the manifest data
 Loading super manfiest files from all sources
 Getting manifests from remote and/or local sources
@@ -21,16 +21,16 @@ Finished download of file 'file:///C:/Users/alexl/.modustoolbox/lcs/manifests-v2
 Finished download of file 'file:///C:/Users/alexl/.modustoolbox/lcs/manifests-v2.X/dependencies-manifest.xml'
 Finished download of file 'file:///C:/Users/alexl/.modustoolbox/lcs/manifests-v2.X/board-manifest.xml'
 Finished download of file 'file:///C:/Users/alexl/.modustoolbox/lcs/manifests-v2.X/middleware-manifest.xml'
-Finished loading the manifest data (277 ms)
+Finished loading the manifest data (269 ms)
 Loading the device db
-Finished loading the device db (831 ms)
+Finished loading the device db (816 ms)
 0 error(s), 0 warning(s)
 
 Summary: 
 
-BSP: CYBT-413055-EVAL
-Template Application(s): Empty BTSDK App
-Note: The 'Empty BTSDK App' application template(s) use(s) the ModusToolbox 2.x format. The application(s) do(es) not support 3.x features. See KBA236134 for instructions on how to migrate the application(s) for 3.x content compatibility.
+BSP: CYW920721M2EVB-03
+Template Application(s): Audio Sink
+Note: The 'Audio Sink' application template(s) use(s) the ModusToolbox 2.x format. The application(s) do(es) not support 3.x features. See KBA236134 for instructions on how to migrate the application(s) for 3.x content compatibility.
 Application(s) Root Path: C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test
 
 Press "Create" to create the selected application(s).
@@ -38,117 +38,111 @@ Press "Create" to create the selected application(s).
 Collecting application data...
 
 Info: The following entered on the command line will create the exact same project as that created with the GUI tool:
-C:/Users/alexl/ModusToolbox/tools_3.1/project-creator/project-creator-cli.exe --board-id CYBT-413055-EVAL --board-uri https://github.com/cypresssemiconductorco/TARGET_CYBT-413055-EVAL --board-commit latest-v3.X --app-id mtb-example-btsdk-empty --app-uri https://github.com/cypresssemiconductorco/mtb-example-btsdk-empty --app-commit latest-v4.X --target-dir C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test --user-app-name Empty_BTSDK_App --use-modus-shell
+C:/Users/alexl/ModusToolbox/tools_3.1/project-creator/project-creator-cli.exe --board-id CYW920721M2EVB-03 --board-uri https://github.com/Infineon/TARGET_CYW920721M2EVB-03 --board-commit latest-v4.X --app-id mtb-example-btsdk-audio-a2dp-sink --app-uri https://github.com/cypresssemiconductorco/mtb-example-btsdk-audio-a2dp-sink --app-commit latest-v4.X --target-dir C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test --user-app-name Audio_Sink --use-modus-shell
 
-Starting application creation for 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Empty_BTSDK_App'.
-Acquiring the application source 'https://github.com/cypresssemiconductorco/mtb-example-btsdk-empty'.
+Starting application creation for 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Audio_Sink'.
+Acquiring the application source 'https://github.com/cypresssemiconductorco/mtb-example-btsdk-audio-a2dp-sink'.
 Acquired application source successfully.
 Loading the application.
 Loaded the application successfully.
-Processing project 'Empty_BTSDK_App'.
-Starting to commit changes to the filesystem and project 'EmptyWicedBluetooth'.
-Removed the file 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Empty_BTSDK_App/deps/TARGET_CYW920819M2EVB-01.mtb'.
-Writing mtb file for asset 'CYBT-413055-EVAL' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Empty_BTSDK_App/deps'.
-Writing mtb file for asset 'CYW20719B2' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Empty_BTSDK_App/libs'.
-Writing mtb file for asset 'BTSDK Shared Includes' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Empty_BTSDK_App/libs'.
-Writing mtb file for asset 'BTSDK Tools' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Empty_BTSDK_App/libs'.
-Writing mtb file for asset 'BTSDK Shared Source' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Empty_BTSDK_App/libs'.
-Writing mtb file for asset 'core-make' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Empty_BTSDK_App/libs'.
-Writing mtb file for asset 'BTSDK Host Apps for Bluetooth® Classic and Bluetooth® Low Energy' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Empty_BTSDK_App/deps'.
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/target_cybt-413055-eval.git release-v3.3.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-host-apps-bt-ble clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/btsdk-host-apps-bt-ble.git release-v4.5.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2 clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/20719b2.git release-v4.4.2
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-include clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/btsdk-include.git release-v4.5.0
-Cloning into 'release-v3.3.0'...
-Cloning into 'release-v4.5.0'...
-Cloning into 'release-v4.4.2'...
-Cloning into 'release-v4.5.0'...
-done.
-done.
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/target_cybt-413055-eval.git release-v3.3.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-tools clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/btsdk-tools.git release-v3.3.0
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2 clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/20719b2.git release-v4.4.2
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-common clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/btsdk-common.git release-v4.5.0
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-include clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/btsdk-include.git release-v4.5.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-make clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/core-make.git release-v1.9.1
-Cloning into 'release-v3.3.0'...
-Cloning into 'release-v4.5.0'...
-Cloning into 'release-v1.9.1'...
-done.
-done.
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-tools clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/btsdk-tools.git release-v3.3.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0 -c advice.detachedHead=false checkout release-v3.3.0 --force
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-common clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/btsdk-common.git release-v4.5.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2 -c advice.detachedHead=false checkout release-v4.4.2 --force
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-make clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/core-make.git release-v1.9.1
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-include/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
-HEAD is now at 9614e60 Upload TARGET_CYBT-413055-EVAL 3.3.0.23146
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0 -c advice.detachedHead=false checkout release-v3.3.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0 -c advice.detachedHead=false checkout release-v3.3.0 --force
-HEAD is now at 17bc45b Upload btsdk-include 4.5.0.34020 [1992]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-include/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-common/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
-HEAD is now at bc62e85 Upload btsdk-common 4.5.0.34020 [1992]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-common/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
+Processing project 'Audio_Sink'.
+Starting to commit changes to the filesystem and project 'BT_A2DP_Sink'.
+Removed the file 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Audio_Sink/deps/TARGET_CYW920721M2EVK-02.mtb'.
+Writing mtb file for asset 'CYW920721M2EVB-03' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Audio_Sink/deps'.
+Writing mtb file for asset 'CYW20721B2' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Audio_Sink/libs'.
+Writing mtb file for asset 'core-make' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Audio_Sink/libs'.
+Writing mtb file for asset 'BTSDK Shared Source' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Audio_Sink/libs'.
+Writing mtb file for asset 'BTSDK Utilities' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Audio_Sink/libs'.
+Writing mtb file for asset 'BTSDK Tools' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Audio_Sink/libs'.
+Writing mtb file for asset 'BTSDK Shared Includes' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Audio_Sink/libs'.
+Writing mtb file for asset 'Audio' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Audio_Sink/deps'.
+Writing mtb file for asset 'BTSDK Host Apps for Bluetooth® Classic and Bluetooth® Low Energy' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Audio_Sink/deps'.
+Writing mtb file for asset 'BTSDK Peer Apps for OTA' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Audio_Sink/deps'.
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-ota/latest-v4.X fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYW920721M2EVB-03/release-v4.4.2 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-audio/release-v4.5.1 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-host-apps-bt-ble/release-v4.5.1 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYW920721M2EVB-03/release-v4.4.2 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-peer-apps-ota/release-v3.3.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-ota/latest-v4.X fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/baselib/20721B2/release-v4.4.2 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-audio/release-v4.5.1 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-make/release-v1.9.1 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-host-apps-bt-ble/release-v4.5.1 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-common/release-v4.5.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-peer-apps-ota/release-v3.3.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-utils clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/btsdk-utils.git release-v4.4.1
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/baselib/20721B2/release-v4.4.2 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-make/release-v1.9.1 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-include/release-v4.5.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-common/release-v4.5.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYW920721M2EVB-03/release-v4.4.2 -c advice.detachedHead=false checkout release-v4.4.2 --force
+Cloning into 'release-v4.4.1'...
+HEAD is now at 28192d7 Upload TARGET_CYW920721M2EVB-03 4.4.2.14114 [1880]
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYW920721M2EVB-03/release-v4.4.2 -c advice.detachedHead=false checkout release-v4.4.2 --force
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-ota/latest-v4.X -c advice.detachedHead=false checkout latest-v4.X --force
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-audio/release-v4.5.1 -c advice.detachedHead=false checkout release-v4.5.1 --force
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-include/release-v4.5.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-host-apps-bt-ble/release-v4.5.1 -c advice.detachedHead=false checkout release-v4.5.1 --force
+HEAD is now at 08e71f7 Upload btsdk-ota 4.5.1.22646 [2118]
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-ota/latest-v4.X -c advice.detachedHead=false checkout latest-v4.X --force
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-peer-apps-ota/release-v3.3.0 -c advice.detachedHead=false checkout release-v3.3.0 --force
+HEAD is now at 9c267c4 Upload btsdk-peer-apps-ota 3.3.0.23146
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-peer-apps-ota/release-v3.3.0 -c advice.detachedHead=false checkout release-v3.3.0 --force
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/baselib/20721B2/release-v4.4.2 -c advice.detachedHead=false checkout release-v4.4.2 --force
+HEAD is now at ebbfab4 Upload btsdk-audio 4.5.1.22646 [2118]
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-audio/release-v4.5.1 -c advice.detachedHead=false checkout release-v4.5.1 --force
 Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-make/release-v1.9.1 -c advice.detachedHead=false checkout release-v1.9.1 --force
-HEAD is now at 0943e94 Upload btsdk-tools 3.3.0.23146
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0 -c advice.detachedHead=false checkout release-v3.3.0 --force
 HEAD is now at 251ade9 Upload core-make 1.9.1.3159
 Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-make/release-v1.9.1 -c advice.detachedHead=false checkout release-v1.9.1 --force
-HEAD is now at 1486e72 Upload 20719B2 4.4.2.14114 [1880]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2 -c advice.detachedHead=false checkout release-v4.4.2 --force
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-host-apps-bt-ble clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/btsdk-host-apps-bt-ble.git release-v4.5.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-host-apps-bt-ble/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
-HEAD is now at 886b51c Upload btsdk-host-apps-bt-ble 4.5.0.34020 [1992]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-host-apps-bt-ble/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
-Writing the file 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Empty_BTSDK_App/libs/app.mk'.
-Successfully committed changes to the project 'EmptyWicedBluetooth'.
-Project "Empty_BTSDK_App" created successfully.
-Successfully created "Empty_BTSDK_App" application.
-Note: The 'Empty_BTSDK_App' application uses the ModusToolbox 2.x format. This application does not support 3.x features. See KBA236134 for instructions on how to migrate the application for 3.x content compatibility.
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-common/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
+HEAD is now at 175628a Upload btsdk-host-apps-bt-ble 4.5.1.22646 [2118]
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-host-apps-bt-ble/release-v4.5.1 -c advice.detachedHead=false checkout release-v4.5.1 --force
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0 -c advice.detachedHead=false checkout release-v3.3.0 --force
+HEAD is now at bc62e85 Upload btsdk-common 4.5.0.34020 [1992]
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-common/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-include/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
+HEAD is now at 0943e94 Upload btsdk-tools 3.3.0.23146
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0 -c advice.detachedHead=false checkout release-v3.3.0 --force
+HEAD is now at 17bc45b Upload btsdk-include 4.5.0.34020 [1992]
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-include/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
+HEAD is now at 71c7594 Upload 20721B2 4.4.2.14114 [1880]
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/baselib/20721B2/release-v4.4.2 -c advice.detachedHead=false checkout release-v4.4.2 --force
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-utils clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/btsdk-utils.git release-v4.4.1
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-utils/release-v4.4.1 -c advice.detachedHead=false checkout release-v4.4.1 --force
+HEAD is now at a0b67b7 Upload btsdk-utils 4.4.1.33643 [1779]
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-utils/release-v4.4.1 -c advice.detachedHead=false checkout release-v4.4.1 --force
+Writing the file 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Audio_Sink/libs/app.mk'.
+Successfully committed changes to the project 'BT_A2DP_Sink'.
+Project "Audio_Sink" created successfully.
+Successfully created "Audio_Sink" application.
+Note: The 'Audio_Sink' application uses the ModusToolbox 2.x format. This application does not support 3.x features. See KBA236134 for instructions on how to migrate the application for 3.x content compatibility.
 ==============================================================================
-= Export "Empty_BTSDK_App" application to Eclipse IDE for ModusToolbox™ =
+= Export "Audio_Sink" application to Eclipse IDE for ModusToolbox™ =
 ==============================================================================
-make eclipse CY_IDE_PRJNAME=Empty_BTSDK_App CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=3.1 CY_TOOLS_PATHS=C:/Users/alexl/ModusToolbox/tools_3.1 MTB_MAKE_ECLIPSE_FORCE_REGENERATE_PROJECT=1
+make eclipse CY_IDE_PRJNAME=Audio_Sink CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=3.1 CY_TOOLS_PATHS=C:/Users/alexl/ModusToolbox/tools_3.1 MTB_MAKE_ECLIPSE_FORCE_REGENERATE_PROJECT=1
 Searching installed tools in progress...
 Searching installed tools complete
-CYBT-413055-EVAL.mk: ../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0/CYBT-413055-EVAL.mk
-Running device-configurator to update stale files...
-[INFO] Log file= "C:/Users/alexl/AppData/Local/Temp/device-configurator-cli/device-configurator-cli-20231206.222109.997-14420.log"
+CYW920721M2EVB-03.mk: ../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYW920721M2EVB-03/release-v4.4.2/CYW920721M2EVB-03.mk
+[INFO] Log file= "C:/Users/alexl/AppData/Local/Temp/device-configurator-cli/device-configurator-cli-20240203.120005.209-21592.log"
 
-[INFO] Command line= "C:/Users/alexl/ModusToolbox/tools_3.1/device-configurator/device-configurator-cli.exe --library ../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/devicesupport.xml --build ../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0/COMPONENT_bsp_design_modus/design.modus --check-mcu=CYBT-413055-02 --check-coprocessors= --readonly"
+[INFO] Command line= "C:/Users/alexl/ModusToolbox/tools_3.1/device-configurator/device-configurator-cli.exe --library ../mtb_shared/wiced_btsdk/dev-kit/baselib/20721B2/release-v4.4.2/COMPONENT_20721B2/devicesupport.xml --build ../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYW920721M2EVB-03/release-v4.4.2/COMPONENT_bsp_design_modus_shield/design.modus --check-mcu=AW-BT315W --check-coprocessors= --readonly --skip-build"
 
-INFO: The file was last saved with a different version of the tools than will be used to perform code generation on save. Last saved with: Configurator Backend 2.4.0.5972. Current: 'Configurator Backend 3.10.0' from 'ModusToolbox 3.1.0'.
--> Generated device configuration file(s) in ../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0/COMPONENT_bsp_design_modus/GeneratedSource
-Running bt-configurator to update stale files...
-[INFO] Log file= "C:/Users/alexl/AppData/Local/Temp/bt-configurator-cli/bt-configurator-cli-20231206.222110.932-20372.log"
-
-[INFO] Command line= "C:/Users/alexl/ModusToolbox/tools_3.1/bt-configurator/bt-configurator-cli.exe --config ./COMPONENT_btstack_v1/cycfg_bt.cybt"
-
---config=C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Empty_BTSDK_App/./COMPONENT_btstack_v1/cycfg_bt.cybt
-[INFO] "INFO: The file was last saved with a different version of the tools than will be used to perform code generation on save. Last saved with: Bluetooth Configurator 2.50. Current: 'Bluetooth Configurator 2.80.0' from 'ModusToolbox 3.1.0'."
-
-[INFO] Successfully saved file C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Empty_BTSDK_App/COMPONENT_btstack_v1/GeneratedSource/cycfg_gatt_db.h.
-
-[INFO] Successfully saved file C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Empty_BTSDK_App/COMPONENT_btstack_v1/GeneratedSource/cycfg_gatt_db.c.
-
-Success.
--> Generated bt configuration file(s) in ./COMPONENT_btstack_v1/GeneratedSource
-generated C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Empty_BTSDK_App/build/CYBT-413055-EVAL/Debug/EmptyWicedBluetooth.ld
+generated C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/Audio_Sink/build/CYW920721M2EVB-03/Debug/BT_A2DP_Sink.ld
 Prebuild operations complete
 Commencing build operations...
-CYBT-413055-EVAL.mk: ../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0/CYBT-413055-EVAL.mk
-Initializing build: EmptyWicedBluetooth Debug CYBT-413055-EVAL GCC_ARM
+CYW920721M2EVB-03.mk: ../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYW920721M2EVB-03/release-v4.4.2/CYW920721M2EVB-03.mk
+Initializing build: BT_A2DP_Sink Debug CYW920721M2EVB-03 GCC_ARM
 Auto-discovery in progress...
--> Found 12 .c file(s)
+-> Found 115 .c file(s)
 -> Found 0 .S file(s)
 -> Found 0 .s file(s)
 -> Found 0 .cpp file(s)
 -> Found 0 .o file(s)
--> Found 12 .a file(s)
--> Found 156 .h file(s)
+-> Found 19 .a file(s)
+-> Found 245 .h file(s)
 -> Found 0 .hpp file(s)
 -> Found 0 resource file(s)
 Applying filters...
@@ -158,11 +152,11 @@ Build rules construction complete
 ==============================================================================
 = Generating IDE files =
 ==============================================================================
-Generated Eclipse launch config files:  "Empty_BTSDK_App Attach_JLink.launch" "Empty_BTSDK_App Attach_KitProg3_MiniProg4.launch" "Empty_BTSDK_App Program.launch"
+Generated Eclipse launch config files:  "Audio_Sink Attach_JLink.launch" "Audio_Sink Attach_KitProg3_MiniProg4.launch" "Audio_Sink Program.launch"
   
-The application "Empty_BTSDK_App" was successfully exported to Eclipse IDE for ModusToolbox™.
+The application "Audio_Sink" was successfully exported to Eclipse IDE for ModusToolbox™.
 0 error(s), 0 warning(s)
 
 Summary:
 
-Successfully created and exported "Empty_BTSDK_App" application.
+Successfully created and exported "Audio_Sink" application.
