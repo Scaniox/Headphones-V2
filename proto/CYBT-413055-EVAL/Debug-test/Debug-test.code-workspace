@@ -7,7 +7,20 @@
 	"settings": {
 		"files.associations": {
 			"*.s": "avr",
-			"wiced_bt_codec_cs47l35.h": "c"
+			"wiced_bt_codec_cs47l35.h": "c",
+			"wiced_platform.h": "c",
+			"wiced_bt_a2dp_sink.h": "c",
+			"wiced_bt_trace.h": "c",
+			"wiced_bt_audio.h": "c",
+			"wiced_hal_puart.h": "c",
+			"wiced_bt_stack.h": "c",
+			"platform_audio_codec.h": "c",
+			"cyhal_gpio.h": "c",
+			"platform_audio_effects.h": "c"
 		}
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
 	}
 }
