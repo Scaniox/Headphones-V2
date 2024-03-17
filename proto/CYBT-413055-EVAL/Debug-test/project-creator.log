@@ -1,88 +1,7 @@
 Loading the ModusToolbox Technology Packs and Early Access Packs
 Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
 Loading the tools information
-Finished loading the tools information (35 ms)
-Loading the manifest data
-Loading super manfiest files from all sources
-Getting manifests from remote and/or local sources
-Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
-Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
-Finished loading super manifest files from all sources
-Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
-Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
-Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
-Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
-Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
-Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
-Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
-Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
-Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
-Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
-Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
-Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
-Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
-Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
-Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
-Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
-Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
-Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
-Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
-Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
-Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
-Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
-Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
-Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
-Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
-Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
-Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
-Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
-Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
-Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
-Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
-Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
-Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
-Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
-Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
-Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
-Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
-Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
-Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
-Finished loading the manifest data (3162 ms)
-Loading the device db
-Finished loading the device db (1530 ms)
-0 error(s), 0 warning(s)
-Loading the ModusToolbox Technology Packs and Early Access Packs
-Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
-Loading the tools information
-Finished loading the tools information (16 ms)
+Finished loading the tools information (10 ms)
 Loading the manifest data
 Loading super manfiest files from all sources
 Getting manifests from remote and/or local sources
@@ -102,15 +21,16 @@ Finished download of file 'file:///C:/Users/alexl/.modustoolbox/lcs/manifests-v2
 Finished download of file 'file:///C:/Users/alexl/.modustoolbox/lcs/manifests-v2.X/dependencies-manifest.xml'
 Finished download of file 'file:///C:/Users/alexl/.modustoolbox/lcs/manifests-v2.X/board-manifest.xml'
 Finished download of file 'file:///C:/Users/alexl/.modustoolbox/lcs/manifests-v2.X/middleware-manifest.xml'
-Finished loading the manifest data (160 ms)
+Finished loading the manifest data (346 ms)
 Loading the device db
-Finished loading the device db (863 ms)
+Finished loading the device db (729 ms)
 0 error(s), 0 warning(s)
 
 Summary: 
 
-BSP: CYW920829-KEYBOARD
-Template Application(s): AIROC LE CYW20829 Keyboard
+BSP: CYBT-413055-EVAL
+Template Application(s): Empty BTSDK App
+Note: The 'Empty BTSDK App' application template(s) use(s) the ModusToolbox 2.x format. The application(s) do(es) not support 3.x features. See KBA236134 for instructions on how to migrate the application(s) for 3.x content compatibility.
 Application(s) Root Path: C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test
 
 Press "Create" to create the selected application(s).
@@ -118,411 +38,124 @@ Press "Create" to create the selected application(s).
 Collecting application data...
 
 Info: The following entered on the command line will create the exact same project as that created with the GUI tool:
-C:/Users/alexl/ModusToolbox/tools_3.1/project-creator/project-creator-cli.exe --board-id CYW920829-KEYBOARD --board-uri https://github.com/Infineon/TARGET_CYW920829-KEYBOARD --board-commit latest-v1.X --app-id mtb-example-btstack-freertos-cyw20829-keyboard --app-uri https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-keyboard --app-commit latest-v3.X --target-dir C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test --user-app-name AIROC_LE_CYW20829_Keyboard --use-modus-shell
+C:/Users/alexl/ModusToolbox/tools_3.1/project-creator/project-creator-cli.exe --board-id CYBT-413055-EVAL --board-uri https://github.com/cypresssemiconductorco/TARGET_CYBT-413055-EVAL --board-commit latest-v3.X --app-id mtb-example-btsdk-empty --app-uri https://github.com/cypresssemiconductorco/mtb-example-btsdk-empty --app-commit latest-v4.X --target-dir C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test --user-app-name minimal_audio_test --use-modus-shell
 
-Starting application creation for 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard'.
-Acquiring the application source 'https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-keyboard'.
+Starting application creation for 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test'.
+Acquiring the application source 'https://github.com/cypresssemiconductorco/mtb-example-btsdk-empty'.
 Acquired application source successfully.
 Loading the application.
 Loaded the application successfully.
-Processing project 'AIROC_LE_CYW20829_Keyboard'.
-Starting to commit changes to the filesystem and project 'mtb-example-btstack-freertos-cyw20829-keyboard'.
-Writing mtb file for asset 'CYW920829-KEYBOARD' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/deps'.
-Writing mtb file for asset 'clib-support' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'abstraction-rtos' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'freertos' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'btstack' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'wifi-core-freertos-lwip-mbedtls' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'mqtt' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'http-client' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'connectivity-utilities' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'recipe-make-cat1b' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'mtb-pdl-cat1' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'mtb-hal-cat1' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'core-make' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'core-lib' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'wpa3-external-supplicant' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'wifi-host-driver' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'wifi-connection-manager' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'whd-bsp-integration' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'secure-sockets' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'mbedtls' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'lwip-network-interface-integration' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'lwip-freertos-integration' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'lwip' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'mbedTLS Acceleration' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'aws-iot-device-sdk-port' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'cmsis' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'aws-iot-device-sdk-embedded-C' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs'.
-Writing mtb file for asset 'btstack-integration' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/deps'.
-Writing mtb file for asset 'kv-store' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/deps'.
-Writing mtb file for asset 'ota-update' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/deps'.
-Writing mtb file for asset 'retarget-io' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/deps'.
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/target_cyw920829-keyboard.git TARGET_CYW920829-KEYBOARD
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/btstack-integration clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/btstack-integration.git release-v4.6.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/kv-store clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/kv-store.git release-v1.1.1
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/ota-update clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/ota-update.git release-v3.0.1
-Cloning into 'TARGET_CYW920829-KEYBOARD'...
-Cloning into 'release-v4.6.0'...
-Cloning into 'release-v1.1.1'...
-Cloning into 'release-v3.0.1'...
-done.
-done.
-done.
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/kv-store clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/kv-store.git release-v1.1.1
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/retarget-io clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/retarget-io.git release-v1.5.0
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/target_cyw920829-keyboard.git TARGET_CYW920829-KEYBOARD
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/clib-support clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/clib-support.git release-v1.4.2
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/ota-update clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/ota-update.git release-v3.0.1
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/abstraction-rtos clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/abstraction-rtos.git release-v1.7.5
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/btstack-integration clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/btstack-integration.git release-v4.6.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/freertos clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/freertos.git release-v10.5.001
-Cloning into 'release-v1.5.0'...
-Cloning into 'release-v1.4.2'...
-Cloning into 'release-v1.7.5'...
-Cloning into 'release-v10.5.001'...
-done.
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/retarget-io clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/retarget-io.git release-v1.5.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/btstack clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/btstack.git release-v3.8.2
-done.
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/clib-support clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/clib-support.git release-v1.4.2
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wifi-core-freertos-lwip-mbedtls clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/wifi-core-freertos-lwip-mbedtls.git release-v1.1.0
-Cloning into 'release-v3.8.2'...
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/abstraction-rtos clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/abstraction-rtos.git release-v1.7.5
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mqtt clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/mqtt.git release-v4.3.0
-Cloning into 'release-v1.1.0'...
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/freertos clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/freertos.git release-v10.5.001
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/http-client clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/http-client.git release-v1.5.0
-Cloning into 'release-v4.3.0'...
-done.
-Cloning into 'release-v1.5.0'...
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/btstack clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/btstack.git release-v3.8.2
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/connectivity-utilities clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/connectivity-utilities.git release-v4.3.0
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wifi-core-freertos-lwip-mbedtls clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/wifi-core-freertos-lwip-mbedtls.git release-v1.1.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/recipe-make-cat1b clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/recipe-make-cat1b.git release-v2.2.1
-done.
-Cloning into 'release-v4.3.0'...
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mqtt clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/mqtt.git release-v4.3.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mtb-pdl-cat1 clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/mtb-pdl-cat1.git release-v3.9.0
-Cloning into 'release-v2.2.1'...
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/http-client clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/http-client.git release-v1.5.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mtb-hal-cat1 clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/mtb-hal-cat1.git release-v2.5.4
-Cloning into 'release-v3.9.0'...
-done.
-Cloning into 'release-v2.5.4'...
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/connectivity-utilities clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/connectivity-utilities.git release-v4.3.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-make clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/core-make.git release-v3.2.2
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/recipe-make-cat1b clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/recipe-make-cat1b.git release-v2.2.1
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-lib clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/core-lib.git release-v1.4.1
-done.
-Cloning into 'release-v3.2.2'...
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mtb-pdl-cat1 clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/mtb-pdl-cat1.git release-v3.9.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wpa3-external-supplicant clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/wpa3-external-supplicant.git release-v1.2.0
-Cloning into 'release-v1.4.1'...
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mtb-hal-cat1 clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/mtb-hal-cat1.git release-v2.5.4
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wifi-host-driver clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/wifi-host-driver.git release-v3.0.0
-Cloning into 'release-v1.2.0'...
-done.
-Cloning into 'release-v3.0.0'...
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-make clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/core-make.git release-v3.2.2
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wifi-connection-manager clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/wifi-connection-manager.git release-v3.3.0
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-lib clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/core-lib.git release-v1.4.1
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/whd-bsp-integration clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/whd-bsp-integration.git release-v2.2.1
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wpa3-external-supplicant clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/wpa3-external-supplicant.git release-v1.2.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/secure-sockets clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/secure-sockets.git release-v3.4.0
-Cloning into 'release-v3.3.0'...
-Cloning into 'release-v2.2.1'...
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wifi-host-driver clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/wifi-host-driver.git release-v3.0.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mbedtls clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/55a211e7273df4ee74462015d66a2bffb048a1a2/mbedtls.git mbedtls-2.25.0
-Cloning into 'release-v3.4.0'...
-done.
-Cloning into 'mbedtls-2.25.0'...
-done.
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wifi-connection-manager clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/wifi-connection-manager.git release-v3.3.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/lwip-network-interface-integration clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/lwip-network-interface-integration.git release-v1.3.0
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/whd-bsp-integration clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/whd-bsp-integration.git release-v2.2.1
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/lwip-freertos-integration clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/lwip-freertos-integration.git release-v1.0.0
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/secure-sockets clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/secure-sockets.git release-v3.4.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/lwip clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/495157db156290a7892b3ad6fb12852ed28f7a27/lwip.git STABLE-2_1_2_RELEASE
-Cloning into 'release-v1.3.0'...
-Cloning into 'release-v1.0.0'...
-done.
-Cloning into 'STABLE-2_1_2_RELEASE'...
-done.
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/lwip-network-interface-integration clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/lwip-network-interface-integration.git release-v1.3.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/cy-mbedtls-acceleration clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/cy-mbedtls-acceleration.git release-v1.5.0
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/lwip-freertos-integration clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/lwip-freertos-integration.git release-v1.0.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-port clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/aws-iot-device-sdk-port.git release-v2.4.0
-Cloning into 'release-v1.5.0'...
-Cloning into 'release-v2.4.0'...
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/lwip clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/495157db156290a7892b3ad6fb12852ed28f7a27/lwip.git STABLE-2_1_2_RELEASE
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/cmsis clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/cmsis.git release-v5.8.0
-done.
-Cloning into 'release-v5.8.0'...
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/cy-mbedtls-acceleration clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/cy-mbedtls-acceleration.git release-v1.5.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/53aa25cfc9f0ff4a5d5eb10f484792a402450b79/aws-iot-device-sdk-embedded-c.git 202103.00
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-port clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/6e170586c54cbc19c29e1374dece54f34f653fe0/aws-iot-device-sdk-port.git release-v2.4.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/kv-store/release-v1.1.1 -c advice.detachedHead=false checkout release-v1.1.1 --force
-done.
-Cloning into '202103.00'...
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/cmsis clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/eab62c3498129169ee1e1667803248325442a315/cmsis.git release-v5.8.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs/TARGET_CYW920829-KEYBOARD -c advice.detachedHead=false checkout release-v1.0.2 --force
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mbedtls clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/55a211e7273df4ee74462015d66a2bffb048a1a2/mbedtls.git mbedtls-2.25.0
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/ota-update/release-v3.0.1 -c advice.detachedHead=false checkout release-v3.0.1 --force
-done.
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C clone --origin cypress --no-checkout C:/Users/alexl/.modustoolbox/lcs/git/53aa25cfc9f0ff4a5d5eb10f484792a402450b79/aws-iot-device-sdk-embedded-c.git 202103.00
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/btstack-integration/release-v4.6.0 -c advice.detachedHead=false checkout release-v4.6.0 --force
-HEAD is now at 9a75a83 Upload kv-store [990]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/kv-store/release-v1.1.1 -c advice.detachedHead=false checkout release-v1.1.1 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/retarget-io/release-v1.5.0 -c advice.detachedHead=false checkout release-v1.5.0 --force
-HEAD is now at d5bc46e Upload TARGET_CYW920829-KEYBOARD [2106]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard/libs/TARGET_CYW920829-KEYBOARD -c advice.detachedHead=false checkout release-v1.0.2 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/clib-support/release-v1.4.2 -c advice.detachedHead=false checkout release-v1.4.2 --force
-HEAD is now at db7f962 Upload retarget-io [1515]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/retarget-io/release-v1.5.0 -c advice.detachedHead=false checkout release-v1.5.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/abstraction-rtos/release-v1.7.5 -c advice.detachedHead=false checkout release-v1.7.5 --force
-HEAD is now at 97cf620 Upload clib-support [1864]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/clib-support/release-v1.4.2 -c advice.detachedHead=false checkout release-v1.4.2 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/freertos/release-v10.5.001 -c advice.detachedHead=false checkout release-v10.5.001 --force
-HEAD is now at 2a0dfa0 Upload ota-update 3.0.1.643 [1771]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/ota-update/release-v3.0.1 -c advice.detachedHead=false checkout release-v3.0.1 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/btstack/release-v3.8.2 -c advice.detachedHead=false checkout release-v3.8.2 --force
-HEAD is now at b679710 Upload abstraction-rtos [2106]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/abstraction-rtos/release-v1.7.5 -c advice.detachedHead=false checkout release-v1.7.5 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wifi-core-freertos-lwip-mbedtls/release-v1.1.0 -c advice.detachedHead=false checkout release-v1.1.0 --force
-HEAD is now at c2c8a9b Upload freertos 10.5.001.632 [2049]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/freertos/release-v10.5.001 -c advice.detachedHead=false checkout release-v10.5.001 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mqtt/release-v4.3.0 -c advice.detachedHead=false checkout release-v4.3.0 --force
-HEAD is now at a80a714 Upload wifi-core-freertos-lwip-mbedtls 1.1.0.96 [1864]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wifi-core-freertos-lwip-mbedtls/release-v1.1.0 -c advice.detachedHead=false checkout release-v1.1.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/http-client/release-v1.5.0 -c advice.detachedHead=false checkout release-v1.5.0 --force
-HEAD is now at ee20881 Upload http-client 1.5.0.799 [2049]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/http-client/release-v1.5.0 -c advice.detachedHead=false checkout release-v1.5.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/connectivity-utilities/release-v4.3.0 -c advice.detachedHead=false checkout release-v4.3.0 --force
-HEAD is now at 59096e0 Upload mqtt 4.3.0.1573 [2049]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mqtt/release-v4.3.0 -c advice.detachedHead=false checkout release-v4.3.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/recipe-make-cat1b/release-v2.2.1 -c advice.detachedHead=false checkout release-v2.2.1 --force
-HEAD is now at 5e47501 Upload btstack-integration 4.6.0.2414 [2106]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/btstack-integration/release-v4.6.0 -c advice.detachedHead=false checkout release-v4.6.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mtb-pdl-cat1/release-v3.9.0 -c advice.detachedHead=false checkout release-v3.9.0 --force
-HEAD is now at d1abc46 Upload recipe-make-cat1b 2.2.1.4648 [1380]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/recipe-make-cat1b/release-v2.2.1 -c advice.detachedHead=false checkout release-v2.2.1 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mtb-hal-cat1/release-v2.5.4 -c advice.detachedHead=false checkout release-v2.5.4 --force
-HEAD is now at 3f6ae38 Upload connectivity-utilities 4.3.0.1386 [2049]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/connectivity-utilities/release-v4.3.0 -c advice.detachedHead=false checkout release-v4.3.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-make/release-v3.2.2 -c advice.detachedHead=false checkout release-v3.2.2 --force
-HEAD is now at b962a1e Upload core-make 3.2.2.4739 [1647]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-make/release-v3.2.2 -c advice.detachedHead=false checkout release-v3.2.2 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-lib/release-v1.4.1 -c advice.detachedHead=false checkout release-v1.4.1 --force
-HEAD is now at a74be8b Upload core-lib [1796]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-lib/release-v1.4.1 -c advice.detachedHead=false checkout release-v1.4.1 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wpa3-external-supplicant/release-v1.2.0 -c advice.detachedHead=false checkout release-v1.2.0 --force
-HEAD is now at e8b77f4 Upload wpa3-external-supplicant 1.2.0.122 [2049]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wpa3-external-supplicant/release-v1.2.0 -c advice.detachedHead=false checkout release-v1.2.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wifi-host-driver/release-v3.0.0 -c advice.detachedHead=false checkout release-v3.0.0 --force
-HEAD is now at 04ee318 Upload wifi-host-driver 3.0.0.22316 [2049]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wifi-host-driver/release-v3.0.0 -c advice.detachedHead=false checkout release-v3.0.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wifi-connection-manager/release-v3.3.0 -c advice.detachedHead=false checkout release-v3.3.0 --force
-HEAD is now at 8602aab Upload wifi-connection-manager 3.3.0.2136 [2049]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wifi-connection-manager/release-v3.3.0 -c advice.detachedHead=false checkout release-v3.3.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/whd-bsp-integration/release-v2.2.1 -c advice.detachedHead=false checkout release-v2.2.1 --force
-HEAD is now at 4090e1a Upload mtb-hal-cat1 [1976]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mtb-hal-cat1/release-v2.5.4 -c advice.detachedHead=false checkout release-v2.5.4 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/secure-sockets/release-v3.4.0 -c advice.detachedHead=false checkout release-v3.4.0 --force
-HEAD is now at 0bdf13b Upload whd-bsp-integration [1864]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/whd-bsp-integration/release-v2.2.1 -c advice.detachedHead=false checkout release-v2.2.1 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/lwip-network-interface-integration/release-v1.3.0 -c advice.detachedHead=false checkout release-v1.3.0 --force
-HEAD is now at 683110f Upload lwip-network-interface-integration 1.3.0.311 [2049]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/lwip-network-interface-integration/release-v1.3.0 -c advice.detachedHead=false checkout release-v1.3.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/lwip-freertos-integration/release-v1.0.0 -c advice.detachedHead=false checkout release-v1.0.0 --force
-HEAD is now at 3627168 Upload secure-sockets 3.4.0.2554 [2049]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/secure-sockets/release-v3.4.0 -c advice.detachedHead=false checkout release-v3.4.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/lwip/STABLE-2_1_2_RELEASE -c advice.detachedHead=false checkout STABLE-2_1_2_RELEASE --force
-HEAD is now at f4797e9 Upload lwip-freertos-integration 1.0.0.19
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/lwip-freertos-integration/release-v1.0.0 -c advice.detachedHead=false checkout release-v1.0.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/cy-mbedtls-acceleration/release-v1.5.0 -c advice.detachedHead=false checkout release-v1.5.0 --force
-HEAD is now at 6c124c2 Upload cy-mbedtls-acceleration 1.5.0.1040 [982]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/cy-mbedtls-acceleration/release-v1.5.0 -c advice.detachedHead=false checkout release-v1.5.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-port/release-v2.4.0 -c advice.detachedHead=false checkout release-v2.4.0 --force
-HEAD is now at 9e2de93 Upload aws-iot-device-sdk-port 2.4.0.438 [2049]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-port/release-v2.4.0 -c advice.detachedHead=false checkout release-v2.4.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/cmsis/release-v5.8.0 -c advice.detachedHead=false checkout release-v5.8.0 --force
-HEAD is now at 159e31b6 Prepare 2.1.2 release
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/lwip/STABLE-2_1_2_RELEASE -c advice.detachedHead=false checkout STABLE-2_1_2_RELEASE --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mbedtls/mbedtls-2.25.0 -c advice.detachedHead=false checkout mbedtls-2.25.0 --force
-HEAD is now at ce02f64 Upload cmsis 5.8.0.50
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/cmsis/release-v5.8.0 -c advice.detachedHead=false checkout release-v5.8.0 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00 -c advice.detachedHead=false checkout 202103.00 --force
-HEAD is now at 01150a0b Update release workflows to run on Ubuntu 18.04 runners (#1575)
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00 -c advice.detachedHead=false checkout 202103.00 --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00 -c protocol.file.allow=always submodule update --init --force
-Submodule 'demos/jobs/jobs_demo_mosquitto/libmosquitto' (C:/Users/alexl/.modustoolbox/lcs/git/7338803286510281d07950cf2df17c4262ec0cd1/mosquitto.git) registered for path 'demos/jobs/jobs_demo_mosquitto/libmosquitto'
-Submodule 'libraries/3rdparty/CMock' (C:/Users/alexl/.modustoolbox/lcs/git/eccbab91e4f76db0c7bf6579458aa153f3913a6d/cmock.git) registered for path 'libraries/3rdparty/CMock'
-Submodule 'libraries/aws/device-defender-for-aws-iot-embedded-sdk' (C:/Users/alexl/.modustoolbox/lcs/git/53aa25cfc9f0ff4a5d5eb10f484792a402450b79/device-defender-for-aws-iot-embedded-sdk.git) registered for path 'libraries/aws/device-defender-for-aws-iot-embedded-sdk'
-Submodule 'libraries/aws/device-shadow-for-aws-iot-embedded-sdk' (C:/Users/alexl/.modustoolbox/lcs/git/53aa25cfc9f0ff4a5d5eb10f484792a402450b79/device-shadow-for-aws-iot-embedded-sdk.git) registered for path 'libraries/aws/device-shadow-for-aws-iot-embedded-sdk'
-Submodule 'libraries/aws/jobs-for-aws-iot-embedded-sdk' (C:/Users/alexl/.modustoolbox/lcs/git/53aa25cfc9f0ff4a5d5eb10f484792a402450b79/jobs-for-aws-iot-embedded-sdk.git) registered for path 'libraries/aws/jobs-for-aws-iot-embedded-sdk'
-Submodule 'libraries/aws/ota-for-aws-iot-embedded-sdk' (C:/Users/alexl/.modustoolbox/lcs/git/53aa25cfc9f0ff4a5d5eb10f484792a402450b79/ota-for-aws-iot-embedded-sdk.git) registered for path 'libraries/aws/ota-for-aws-iot-embedded-sdk'
-Submodule 'libraries/standard/backoffAlgorithm' (C:/Users/alexl/.modustoolbox/lcs/git/de7cce31d6e2b01061ed3969ca5fe9780b413b63/backoffalgorithm.git) registered for path 'libraries/standard/backoffAlgorithm'
-Submodule 'libraries/standard/coreHTTP' (C:/Users/alexl/.modustoolbox/lcs/git/de7cce31d6e2b01061ed3969ca5fe9780b413b63/corehttp.git) registered for path 'libraries/standard/coreHTTP'
-Submodule 'libraries/standard/coreJSON' (C:/Users/alexl/.modustoolbox/lcs/git/de7cce31d6e2b01061ed3969ca5fe9780b413b63/corejson.git) registered for path 'libraries/standard/coreJSON'
-Submodule 'libraries/standard/coreMQTT' (C:/Users/alexl/.modustoolbox/lcs/git/de7cce31d6e2b01061ed3969ca5fe9780b413b63/coremqtt.git) registered for path 'libraries/standard/coreMQTT'
-Submodule 'libraries/standard/corePKCS11' (C:/Users/alexl/.modustoolbox/lcs/git/de7cce31d6e2b01061ed3969ca5fe9780b413b63/corepkcs11.git) registered for path 'libraries/standard/corePKCS11'
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/demos/jobs/jobs_demo_mosquitto/libmosquitto'...
-done.
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/3rdparty/CMock'...
-done.
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/device-defender-for-aws-iot-embedded-sdk'...
-done.
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/device-shadow-for-aws-iot-embedded-sdk'...
-done.
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/jobs-for-aws-iot-embedded-sdk'...
-done.
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/ota-for-aws-iot-embedded-sdk'...
-done.
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/backoffAlgorithm'...
-done.
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/coreHTTP'...
-done.
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/coreJSON'...
-done.
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/coreMQTT'...
-HEAD is now at 1c54b5410 Merge pull request #786 from ARMmbed/dev/yanesca/mbedtls-2.25.0r0-pr
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mbedtls/mbedtls-2.25.0 -c advice.detachedHead=false checkout mbedtls-2.25.0 --force
-done.
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/corePKCS11'...
-done.
-HEAD is now at 2027458 Upload btstack 3.8.2.18852 [2150]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/btstack/release-v3.8.2 -c advice.detachedHead=false checkout release-v3.8.2 --force
-Submodule path 'demos/jobs/jobs_demo_mosquitto/libmosquitto': checked out '0bdf630c2757047dcbf1fd3ad6b7a245addd87fa'
-Submodule path 'libraries/3rdparty/CMock': checked out '150573c742ce15061a0b675aa0f8e29c85008062'
-Submodule path 'libraries/aws/device-defender-for-aws-iot-embedded-sdk': checked out '548b4688b26d16d0e6134d7d93dcbae103994e40'
-Submodule path 'libraries/aws/device-shadow-for-aws-iot-embedded-sdk': checked out 'ff5a3e174ca8f805051c14d9c15b500196e3f79a'
-Submodule path 'libraries/aws/jobs-for-aws-iot-embedded-sdk': checked out '19788445bca7f8f85167c83ac12379d3d1022295'
-Submodule path 'libraries/aws/ota-for-aws-iot-embedded-sdk': checked out '666241d0f643b07d5146a3715b649d80f8135e0b'
-Submodule path 'libraries/standard/backoffAlgorithm': checked out '741697917a5b9264cd5c11e54e23ce3fe3472636'
-Submodule path 'libraries/standard/coreHTTP': checked out '88c836c18f46c5ab862810f56b023ecb2ddf7b7b'
-Submodule path 'libraries/standard/coreJSON': checked out '19b48dbf1b1f8753d61d8e2916137904ce12b293'
-Submodule path 'libraries/standard/coreMQTT': checked out 'ffb68182abfab5e2b9df6ac24b17e3e0fec7b67f'
-Submodule path 'libraries/standard/corePKCS11': checked out 'a739b86f90bde81aeea19dab6315250983730211'
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00 -c protocol.file.allow=always submodule update --init --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/3rdparty/CMock -c protocol.file.allow=always submodule update --init --force
-Submodule 'vendor/c_exception' (C:/Users/alexl/.modustoolbox/lcs/git/eccbab91e4f76db0c7bf6579458aa153f3913a6d/cexception.git) registered for path 'vendor/c_exception'
-Submodule 'vendor/unity' (C:/Users/alexl/.modustoolbox/lcs/git/eccbab91e4f76db0c7bf6579458aa153f3913a6d/unity.git) registered for path 'vendor/unity'
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/3rdparty/CMock/vendor/c_exception'...
-done.
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/3rdparty/CMock/vendor/unity'...
-done.
-Submodule path 'vendor/c_exception': checked out '71b47be7c950f1bf5f7e5303779fa99a16224bb6'
-Submodule path 'vendor/unity': checked out 'cf949f45ca6d172a177b00da21310607b97bc7a7'
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/3rdparty/CMock -c protocol.file.allow=always submodule update --init --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/device-defender-for-aws-iot-embedded-sdk -c protocol.file.allow=always submodule update --init --force
-Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (C:/Users/alexl/.modustoolbox/lcs/git/d4e4df22263425b59337f576e2a174b2c8f9eea7/aws-templates-for-cbmc-proofs.git) registered for path 'test/cbmc/aws-templates-for-cbmc-proofs'
-Submodule 'test/cbmc/litani' (C:/Users/alexl/.modustoolbox/lcs/git/d4e4df22263425b59337f576e2a174b2c8f9eea7/aws-build-accumulator.git) registered for path 'test/cbmc/litani'
-Submodule 'test/unit-test/Unity' (C:/Users/alexl/.modustoolbox/lcs/git/eccbab91e4f76db0c7bf6579458aa153f3913a6d/unity.git) registered for path 'test/unit-test/Unity'
-Skipping submodule 'test/cbmc/aws-templates-for-cbmc-proofs'
-Skipping submodule 'test/cbmc/litani'
-Skipping submodule 'test/unit-test/Unity'
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/device-defender-for-aws-iot-embedded-sdk -c protocol.file.allow=always submodule update --init --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/device-shadow-for-aws-iot-embedded-sdk -c protocol.file.allow=always submodule update --init --force
-Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (C:/Users/alexl/.modustoolbox/lcs/git/d4e4df22263425b59337f576e2a174b2c8f9eea7/aws-templates-for-cbmc-proofs.git) registered for path 'test/cbmc/aws-templates-for-cbmc-proofs'
-Submodule 'test/cbmc/litani' (C:/Users/alexl/.modustoolbox/lcs/git/d4e4df22263425b59337f576e2a174b2c8f9eea7/aws-build-accumulator.git) registered for path 'test/cbmc/litani'
-Submodule 'test/unit-test/CMock' (C:/Users/alexl/.modustoolbox/lcs/git/eccbab91e4f76db0c7bf6579458aa153f3913a6d/cmock.git) registered for path 'test/unit-test/CMock'
-Skipping submodule 'test/cbmc/aws-templates-for-cbmc-proofs'
-Skipping submodule 'test/cbmc/litani'
-Skipping submodule 'test/unit-test/CMock'
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/device-shadow-for-aws-iot-embedded-sdk -c protocol.file.allow=always submodule update --init --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/jobs-for-aws-iot-embedded-sdk -c protocol.file.allow=always submodule update --init --force
-Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (C:/Users/alexl/.modustoolbox/lcs/git/d4e4df22263425b59337f576e2a174b2c8f9eea7/aws-templates-for-cbmc-proofs.git) registered for path 'test/cbmc/aws-templates-for-cbmc-proofs'
-Submodule 'test/cbmc/litani' (C:/Users/alexl/.modustoolbox/lcs/git/d4e4df22263425b59337f576e2a174b2c8f9eea7/aws-build-accumulator.git) registered for path 'test/cbmc/litani'
-Submodule 'test/unit-test/Unity' (C:/Users/alexl/.modustoolbox/lcs/git/eccbab91e4f76db0c7bf6579458aa153f3913a6d/unity.git) registered for path 'test/unit-test/Unity'
-Skipping submodule 'test/cbmc/aws-templates-for-cbmc-proofs'
-Skipping submodule 'test/cbmc/litani'
-Skipping submodule 'test/unit-test/Unity'
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/jobs-for-aws-iot-embedded-sdk -c protocol.file.allow=always submodule update --init --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/ota-for-aws-iot-embedded-sdk -c protocol.file.allow=always submodule update --init --force
-Submodule 'tinycbor' (C:/Users/alexl/.modustoolbox/lcs/git/414f0f0a4daf99aae431f9114c2ac15e77d2e1d8/tinycbor.git) registered for path 'source/dependency/3rdparty/tinycbor'
-Submodule 'coreJSON' (C:/Users/alexl/.modustoolbox/lcs/git/de7cce31d6e2b01061ed3969ca5fe9780b413b63/corejson.git) registered for path 'source/dependency/coreJSON'
-Submodule 'test/unit-test/CMock' (C:/Users/alexl/.modustoolbox/lcs/git/eccbab91e4f76db0c7bf6579458aa153f3913a6d/cmock.git) registered for path 'test/unit-test/CMock'
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/3rdparty/tinycbor'...
-done.
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/coreJSON'...
-done.
-Skipping submodule 'test/unit-test/CMock'
-Submodule path 'source/dependency/3rdparty/tinycbor': checked out '9924cfed3b95ad6de299ae675064430fdb886216'
-Submodule path 'source/dependency/coreJSON': checked out '97a906a2761b71434ffa9d838cd0500543b7dadc'
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/ota-for-aws-iot-embedded-sdk -c protocol.file.allow=always submodule update --init --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/backoffAlgorithm -c protocol.file.allow=always submodule update --init --force
-Submodule 'test/unit-test/Unity' (C:/Users/alexl/.modustoolbox/lcs/git/eccbab91e4f76db0c7bf6579458aa153f3913a6d/unity.git) registered for path 'test/unit-test/Unity'
-Skipping submodule 'test/unit-test/Unity'
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/backoffAlgorithm -c protocol.file.allow=always submodule update --init --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/coreHTTP -c protocol.file.allow=always submodule update --init --force
-Submodule 'source/dependency/3rdparty/http_parser' (C:/Users/alexl/.modustoolbox/lcs/git/087786b14ce3d64c2163612619b8a911b8511941/http-parser.git) registered for path 'source/dependency/3rdparty/http_parser'
-Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (C:/Users/alexl/.modustoolbox/lcs/git/d4e4df22263425b59337f576e2a174b2c8f9eea7/aws-templates-for-cbmc-proofs.git) registered for path 'test/cbmc/aws-templates-for-cbmc-proofs'
-Submodule 'test/cbmc/litani' (C:/Users/alexl/.modustoolbox/lcs/git/d4e4df22263425b59337f576e2a174b2c8f9eea7/aws-build-accumulator.git) registered for path 'test/cbmc/litani'
-Submodule 'test/unit-test/CMock' (C:/Users/alexl/.modustoolbox/lcs/git/eccbab91e4f76db0c7bf6579458aa153f3913a6d/cmock.git) registered for path 'test/unit-test/CMock'
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/coreHTTP/source/dependency/3rdparty/http_parser'...
-done.
-Skipping submodule 'test/cbmc/aws-templates-for-cbmc-proofs'
-Skipping submodule 'test/cbmc/litani'
-Skipping submodule 'test/unit-test/CMock'
-Submodule path 'source/dependency/3rdparty/http_parser': checked out 'ec8b5ee63f0e51191ea43bb0c6eac7bfbff3141d'
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/coreHTTP -c protocol.file.allow=always submodule update --init --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/coreJSON -c protocol.file.allow=always submodule update --init --force
-Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (C:/Users/alexl/.modustoolbox/lcs/git/d4e4df22263425b59337f576e2a174b2c8f9eea7/aws-templates-for-cbmc-proofs.git) registered for path 'test/cbmc/aws-templates-for-cbmc-proofs'
-Submodule 'test/cbmc/litani' (C:/Users/alexl/.modustoolbox/lcs/git/d4e4df22263425b59337f576e2a174b2c8f9eea7/aws-build-accumulator.git) registered for path 'test/cbmc/litani'
-Submodule 'test/unit-test/Unity' (C:/Users/alexl/.modustoolbox/lcs/git/eccbab91e4f76db0c7bf6579458aa153f3913a6d/unity.git) registered for path 'test/unit-test/Unity'
-Skipping submodule 'test/cbmc/aws-templates-for-cbmc-proofs'
-Skipping submodule 'test/cbmc/litani'
-Skipping submodule 'test/unit-test/Unity'
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/coreJSON -c protocol.file.allow=always submodule update --init --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/coreMQTT -c protocol.file.allow=always submodule update --init --force
-Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (C:/Users/alexl/.modustoolbox/lcs/git/d4e4df22263425b59337f576e2a174b2c8f9eea7/aws-templates-for-cbmc-proofs.git) registered for path 'test/cbmc/aws-templates-for-cbmc-proofs'
-Submodule 'test/cbmc/litani' (C:/Users/alexl/.modustoolbox/lcs/git/d4e4df22263425b59337f576e2a174b2c8f9eea7/aws-build-accumulator.git) registered for path 'test/cbmc/litani'
-Submodule 'test/unit-test/CMock' (C:/Users/alexl/.modustoolbox/lcs/git/eccbab91e4f76db0c7bf6579458aa153f3913a6d/cmock.git) registered for path 'test/unit-test/CMock'
-Skipping submodule 'test/cbmc/aws-templates-for-cbmc-proofs'
-Skipping submodule 'test/cbmc/litani'
-Skipping submodule 'test/unit-test/CMock'
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/coreMQTT -c protocol.file.allow=always submodule update --init --force
-Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/corePKCS11 -c protocol.file.allow=always submodule update --init --force
-Submodule 'source/dependency/3rdparty/mbedtls' (C:/Users/alexl/.modustoolbox/lcs/git/55a211e7273df4ee74462015d66a2bffb048a1a2/mbedtls.git) registered for path 'source/dependency/3rdparty/mbedtls'
-Submodule 'source/dependency/3rdparty/pkcs11' (C:/Users/alexl/.modustoolbox/lcs/git/8495bcf0ec926ef4c2cc573f8e69c7e577720419/pkcs11.git) registered for path 'source/dependency/3rdparty/pkcs11'
-Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (C:/Users/alexl/.modustoolbox/lcs/git/d4e4df22263425b59337f576e2a174b2c8f9eea7/aws-templates-for-cbmc-proofs.git) registered for path 'test/cbmc/aws-templates-for-cbmc-proofs'
-Submodule 'test/cbmc/litani' (C:/Users/alexl/.modustoolbox/lcs/git/d4e4df22263425b59337f576e2a174b2c8f9eea7/aws-build-accumulator.git) registered for path 'test/cbmc/litani'
-Submodule 'test/unit-test/CMock' (C:/Users/alexl/.modustoolbox/lcs/git/eccbab91e4f76db0c7bf6579458aa153f3913a6d/cmock.git) registered for path 'test/unit-test/CMock'
-Skipping submodule 'source/dependency/3rdparty/mbedtls'
-Cloning into '/cygdrive/c/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/corePKCS11/source/dependency/3rdparty/pkcs11'...
-done.
-Skipping submodule 'test/cbmc/aws-templates-for-cbmc-proofs'
-Skipping submodule 'test/cbmc/litani'
-Skipping submodule 'test/unit-test/CMock'
-HEAD is now at 96bbf19 Upload mtb-pdl-cat1 3.9.0.29592 [2049]
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/mtb-pdl-cat1/release-v3.9.0 -c advice.detachedHead=false checkout release-v3.9.0 --force
-Submodule path 'source/dependency/3rdparty/pkcs11': checked out '9304ef6842d08d881ccd1daa8d3a428f3a9671ee'
-Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/corePKCS11 -c protocol.file.allow=always submodule update --init --force
-Failed to commit changes to the project 'mtb-example-btstack-freertos-cyw20829-keyboard'.
-Failed to process project 'AIROC_LE_CYW20829_Keyboard'.
-Application creation failed.
-ERROR:there was an error retreiving the asset 'https://github.com/aws/aws-iot-device-sdk-embedded-C' commit '202103.00' - ERROR:C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/coreJSON: Failed to open Git repository: path too long: 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/.git/modules/libraries/aws/ota-for-aws-iot-embedded-sdk/modules/coreJSON/'
-ERROR:Project 'AIROC_LE_CYW20829_Keyboard' in application directory 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/AIROC_LE_CYW20829_Keyboard' - the getlibs operation failed
-
-Skipping export of the "AIROC_LE_CYW20829_Keyboard" application to Eclipse IDE for ModusToolbox™.
-2 error(s), 0 warning(s)
+Processing project 'minimal_audio_test'.
+Starting to commit changes to the filesystem and project 'EmptyWicedBluetooth'.
+Removed the file 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test/deps/TARGET_CYW920819M2EVB-01.mtb'.
+Writing mtb file for asset 'CYBT-413055-EVAL' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test/deps'.
+Writing mtb file for asset 'CYW20719B2' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test/libs'.
+Writing mtb file for asset 'core-make' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test/libs'.
+Writing mtb file for asset 'BTSDK Shared Source' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test/libs'.
+Writing mtb file for asset 'BTSDK Utilities' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test/libs'.
+Writing mtb file for asset 'BTSDK Tools' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test/libs'.
+Writing mtb file for asset 'BTSDK Shared Includes' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test/libs'.
+Writing mtb file for asset 'BTSDK Host Apps for Bluetooth® Classic and Bluetooth® Low Energy' to the folder 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test/deps'.
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-host-apps-bt-ble/release-v4.5.1 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-make/release-v1.9.1 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-common/release-v4.5.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-host-apps-bt-ble/release-v4.5.1 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-utils/release-v4.4.1 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-make/release-v1.9.1 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-include/release-v4.5.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-common/release-v4.5.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0 -c advice.detachedHead=false checkout release-v3.3.0 --force
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-utils/release-v4.4.1 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-host-apps-bt-ble/release-v4.5.1 -c advice.detachedHead=false checkout release-v4.5.1 --force
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-include/release-v4.5.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2 -c advice.detachedHead=false checkout release-v4.4.2 --force
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0 fetch --recurse-submodules=no --tags --force cypress-offline --update-head-ok "refs/heads/*:refs/heads/*" --quiet
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-make/release-v1.9.1 -c advice.detachedHead=false checkout release-v1.9.1 --force
+HEAD is now at 9614e60 Upload TARGET_CYBT-413055-EVAL 3.3.0.23146
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0 -c advice.detachedHead=false checkout release-v3.3.0 --force
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-common/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
+HEAD is now at 251ade9 Upload core-make 1.9.1.3159
+HEAD is now at 175628a Upload btsdk-host-apps-bt-ble 4.5.1.22646 [2118]
+HEAD is now at bc62e85 Upload btsdk-common 4.5.0.34020 [1992]
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-host-apps-bt-ble/release-v4.5.1 -c advice.detachedHead=false checkout release-v4.5.1 --force
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-utils/release-v4.4.1 -c advice.detachedHead=false checkout release-v4.4.1 --force
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/core-make/release-v1.9.1 -c advice.detachedHead=false checkout release-v1.9.1 --force
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-include/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/libraries/btsdk-common/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
+Starting: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0 -c advice.detachedHead=false checkout release-v3.3.0 --force
+HEAD is now at 17bc45b Upload btsdk-include 4.5.0.34020 [1992]
+HEAD is now at a0b67b7 Upload btsdk-utils 4.4.1.33643 [1779]
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/tools/btsdk-utils/release-v4.4.1 -c advice.detachedHead=false checkout release-v4.4.1 --force
+HEAD is now at 0943e94 Upload btsdk-tools 3.3.0.23146
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-include/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/btsdk-tools/release-v3.3.0 -c advice.detachedHead=false checkout release-v3.3.0 --force
+HEAD is now at 1486e72 Upload 20719B2 4.4.2.14114 [1880]
+Success: git -C C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2 -c advice.detachedHead=false checkout release-v4.4.2 --force
+Writing the file 'C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test/libs/app.mk'.
+Successfully committed changes to the project 'EmptyWicedBluetooth'.
+Project "minimal_audio_test" created successfully.
+Successfully created "minimal_audio_test" application.
+Note: The 'minimal_audio_test' application uses the ModusToolbox 2.x format. This application does not support 3.x features. See KBA236134 for instructions on how to migrate the application for 3.x content compatibility.
+==============================================================================
+= Export "minimal_audio_test" application to Eclipse IDE for ModusToolbox™ =
+==============================================================================
+make eclipse CY_IDE_PRJNAME=minimal_audio_test CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=3.1 CY_TOOLS_PATHS=C:/Users/alexl/ModusToolbox/tools_3.1 MTB_MAKE_ECLIPSE_FORCE_REGENERATE_PROJECT=1
+Searching installed tools in progress...
+Searching installed tools complete
+CYBT-413055-EVAL.mk: ../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0/CYBT-413055-EVAL.mk
+Running device-configurator to update stale files...
+[INFO] Log file= "C:/Users/alexl/AppData/Local/Temp/device-configurator-cli/device-configurator-cli-20240317.223728.681-25072.log"
+
+[INFO] Command line= "C:/Users/alexl/ModusToolbox/tools_3.1/device-configurator/device-configurator-cli.exe --library ../mtb_shared/wiced_btsdk/dev-kit/baselib/20719B2/release-v4.4.2/COMPONENT_20719B2/devicesupport.xml --build ../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0/COMPONENT_bsp_design_modus/design.modus --check-mcu=CYBT-413055-02 --check-coprocessors= --readonly"
+
+INFO: The file was last saved with a different version of the tools than will be used to perform code generation on save. Last saved with: Configurator Backend 2.4.0.5972. Current: 'Configurator Backend 3.10.0' from 'ModusToolbox 3.1.0'.
+-> Generated device configuration file(s) in ../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0/COMPONENT_bsp_design_modus/GeneratedSource
+Running bt-configurator to update stale files...
+[INFO] Log file= "C:/Users/alexl/AppData/Local/Temp/bt-configurator-cli/bt-configurator-cli-20240317.223729.039-3348.log"
+
+[INFO] Command line= "C:/Users/alexl/ModusToolbox/tools_3.1/bt-configurator/bt-configurator-cli.exe --config ./COMPONENT_btstack_v1/cycfg_bt.cybt"
+
+--config=C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test/./COMPONENT_btstack_v1/cycfg_bt.cybt
+[INFO] "INFO: The file was last saved with a different version of the tools than will be used to perform code generation on save. Last saved with: Bluetooth Configurator 2.50. Current: 'Bluetooth Configurator 2.80.0' from 'ModusToolbox 3.1.0'."
+
+[INFO] Successfully saved file C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test/COMPONENT_btstack_v1/GeneratedSource/cycfg_gatt_db.h.
+
+[INFO] Successfully saved file C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test/COMPONENT_btstack_v1/GeneratedSource/cycfg_gatt_db.c.
+
+Success.
+-> Generated bt configuration file(s) in ./COMPONENT_btstack_v1/GeneratedSource
+generated C:/Users/alexl/projects/Headphones-V2/proto/CYBT-413055-EVAL/Debug-test/minimal_audio_test/build/CYBT-413055-EVAL/Debug/EmptyWicedBluetooth.ld
+Prebuild operations complete
+Commencing build operations...
+CYBT-413055-EVAL.mk: ../mtb_shared/wiced_btsdk/dev-kit/bsp/TARGET_CYBT-413055-EVAL/release-v3.3.0/CYBT-413055-EVAL.mk
+Initializing build: EmptyWicedBluetooth Debug CYBT-413055-EVAL GCC_ARM
+Auto-discovery in progress...
+-> Found 12 .c file(s)
+-> Found 0 .S file(s)
+-> Found 0 .s file(s)
+-> Found 0 .cpp file(s)
+-> Found 0 .o file(s)
+-> Found 12 .a file(s)
+-> Found 156 .h file(s)
+-> Found 0 .hpp file(s)
+-> Found 0 resource file(s)
+Applying filters...
+Auto-discovery complete
+Constructing build rules...
+Build rules construction complete
+==============================================================================
+= Generating IDE files =
+==============================================================================
+Generated Eclipse launch config files:  "minimal_audio_test Attach_JLink.launch" "minimal_audio_test Attach_KitProg3_MiniProg4.launch" "minimal_audio_test Program.launch"
+  
+The application "minimal_audio_test" was successfully exported to Eclipse IDE for ModusToolbox™.
+0 error(s), 0 warning(s)
 
 Summary:
 
-ERROR:Failed to create and export "AIROC_LE_CYW20829_Keyboard" application.
-
+Successfully created and exported "minimal_audio_test" application.
