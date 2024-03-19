@@ -85,6 +85,7 @@ static wiced_bt_dev_status_t  app_bt_management_callback    ( wiced_bt_managemen
 wiced_result_t app_set_advertisement_data(void);
 wiced_bt_gatt_status_t app_gatt_callback( wiced_bt_gatt_evt_t event, wiced_bt_gatt_event_data_t *p_data );
 void Heartbeat_task(uint32_t arg);
+void print_bda(wiced_bt_device_address_t addr);
 
 /******************************************************************************
  *                                Variables Definitions
@@ -139,6 +140,7 @@ wiced_thread_t* heartbeat_h;
 APPLICATION_START()
 {
 	wiced_hal_wdog_disable();
+	wiced_rtos_delay_milliseconds(2000, ALLOW_THREAD_TO_SLEEP);
     wiced_transport_init( &transport_cfg );
 
     // Set to PUART to see traces on peripheral uart(puart)
@@ -184,6 +186,14 @@ APPLICATION_START()
 *
 ***********************************************************************************************/
 
+
+
+
+
+
+
+/////////////////////////// callbacks
+
 /* Bluetooth Management Event Handler */
 wiced_result_t app_bt_management_callback( wiced_bt_management_evt_t event, wiced_bt_management_evt_data_t *p_event_data )
 {
@@ -200,9 +210,7 @@ wiced_result_t app_bt_management_callback( wiced_bt_management_evt_t event, wice
         wiced_bt_device_address_t addr;
         wiced_bt_dev_read_local_addr(addr);
         WICED_BT_TRACE("address: ");
-        for(int i=0;i<BD_ADDR_LEN; i++){
-        	WICED_BT_TRACE("%X:", addr[i]);
-        }
+        print_bda(addr);
         WICED_BT_TRACE("\n");
 
         // create heartbeat thread
@@ -243,6 +251,24 @@ wiced_result_t app_bt_management_callback( wiced_bt_management_evt_t event, wice
         /* TODO - further initialization here */
 
         break;
+	case BTM_PAIRING_IO_CAPABILITIES_BR_EDR_REQUEST_EVT:
+		WICED_BT_TRACE("pairing request from ");
+		print_bda(p_event_data->pairing_io_capabilities_br_edr_request.bd_addr);
+		WICED_BT_TRACE("\n");
+
+//		p_event_data->pairing_io_capabilities_br_edr_request =
+		break;
+
+    case BTM_PAIRING_IO_CAPABILITIES_BR_EDR_RESPONSE_EVT:
+    	WICED_BT_TRACE("pairing response from ");
+		print_bda(p_event_data->pairing_io_capabilities_br_edr_request.bd_addr);
+		WICED_BT_TRACE("\n");
+
+		p_event_data->pairing_io_capabilities_br_edr_request.local_io_cap = BTM_IO_CAPABILITIES_NONE;
+		p_event_data->pairing_io_capabilities_br_edr_request.oob_data = 0x69;
+		p_event_data->pairing_io_capabilities_br_edr_request.auth_req = BTM_AUTH_SINGLE_PROFILE_NO;
+
+		break;
 
     /* TODO - Handle Bluetooth Management Event
     case BTM_PAIRING_IO_CAPABILITIES_BLE_REQUEST_EVT: // IO capabilities request
@@ -260,7 +286,7 @@ wiced_result_t app_bt_management_callback( wiced_bt_management_evt_t event, wice
      case BTM_PAIRED_DEVICE_LINK_KEYS_UPDATE_EVT: // save link keys with app
          break;
 
-      case  BTM_PAIRED_DEVICE_LINK_KEYS_REQUEST_EVT: // retrieval saved link keys
+  	 case  BTM_PAIRED_DEVICE_LINK_KEYS_REQUEST_EVT: // retrieval saved link keys
          break;
 
      case BTM_LOCAL_IDENTITY_KEYS_UPDATE_EVT: // save keys to NVRAM
@@ -310,6 +336,18 @@ wiced_result_t app_set_advertisement_data(void)
 }
 */
 
+
+///////////////////////// usefull gubbins
+
+void print_bda(wiced_bt_device_address_t addr) {
+    for(int i=0;i<BD_ADDR_LEN; i++){
+    	WICED_BT_TRACE("%X:", addr[i]);
+    }
+}
+
+
+/////////////// tasks
+
 void Heartbeat_task(uint32_t arg) {
 	WICED_BT_TRACE("heartbeat started\n");
 
@@ -321,3 +359,5 @@ void Heartbeat_task(uint32_t arg) {
 		wiced_rtos_delay_milliseconds(500, ALLOW_THREAD_TO_SLEEP);
 	}
 }
+
+
