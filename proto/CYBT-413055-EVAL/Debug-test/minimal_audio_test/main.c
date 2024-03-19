@@ -48,6 +48,9 @@
 * 5. Add new code and functionality.
 */
 
+#include "wiced_rtos.h"
+#include "wiced_hal_wdog.h"
+
 #include "app_bt_cfg.h"
 #include "sparcommon.h"
 #include "wiced_bt_dev.h"
@@ -81,6 +84,7 @@ void debug_uart_set_baudrate(uint32_t baud_rate);
 static wiced_bt_dev_status_t  app_bt_management_callback    ( wiced_bt_management_evt_t event, wiced_bt_management_evt_data_t *p_event_data );
 wiced_result_t app_set_advertisement_data(void);
 wiced_bt_gatt_status_t app_gatt_callback( wiced_bt_gatt_evt_t event, wiced_bt_gatt_event_data_t *p_data );
+void Heartbeat_task(uint32_t arg);
 
 /******************************************************************************
  *                                Variables Definitions
@@ -116,6 +120,8 @@ const wiced_transport_cfg_t transport_cfg =
     .p_tx_complete_cback = NULL
 };
 
+wiced_thread_t* heartbeat_h;
+
 /*******************************************************************************
 * Function Name: void application_start(void)
 ********************************************************************************
@@ -132,12 +138,17 @@ const wiced_transport_cfg_t transport_cfg =
 ********************************************************************************/
 APPLICATION_START()
 {
+	wiced_hal_wdog_disable();
     wiced_transport_init( &transport_cfg );
 
     // Set to PUART to see traces on peripheral uart(puart)
     wiced_set_debug_uart( WICED_ROUTE_DEBUG_TO_PUART );
 
-    WICED_BT_TRACE("**** App Start **** \n\r");
+	wiced_hal_gpio_set_pin_output(WICED_GPIO_PIN_LED_2, 1);
+	wiced_hal_gpio_select_function(WICED_GPIO_PIN_LED_2, WICED_GPIO);
+
+    WICED_BT_TRACE("\033c");
+    WICED_BT_TRACE("------------------ App Start ------------------\n\r");
 
     /* TODO your app init code */
 
@@ -186,8 +197,34 @@ wiced_result_t app_bt_management_callback( wiced_bt_management_evt_t event, wice
         WICED_BT_TRACE("Bluetooth Enabled (%s)\n",
                 ((WICED_BT_SUCCESS == p_event_data->enabled.status) ? "success" : "failure"));
 
+        wiced_bt_device_address_t addr;
+        wiced_bt_dev_read_local_addr(addr);
+        WICED_BT_TRACE("address: ");
+        for(int i=0;i<BD_ADDR_LEN; i++){
+        	WICED_BT_TRACE("%X:", addr[i]);
+        }
+        WICED_BT_TRACE("\n");
+
+        // create heartbeat thread
+        heartbeat_h = wiced_rtos_create_thread();
+        if(wiced_rtos_init_thread(heartbeat_h, 4, "hb", Heartbeat_task, 1024, NULL) != WICED_SUCCESS){
+        	WICED_BT_TRACE("heartbeat thread sad\n");
+        }
+
         /* Set Class Of Device explicity to here (for BR/EDR apps)*/
-        // status = wiced_bt_set_device_class((uint8_t *)wiced_bt_cfg_settings.device_class);
+        status = wiced_bt_set_device_class((uint8_t *)wiced_bt_cfg_settings.device_class);
+
+        // discoverability:
+        status = wiced_bt_dev_set_discoverability(BTM_GENERAL_DISCOVERABLE, BTM_DEFAULT_DISC_WINDOW, BTM_DEFAULT_DISC_INTERVAL);
+		if (status != WICED_BT_SUCCESS){
+			WICED_BT_TRACE("discoverability sad: 0x%X", status);
+		}
+
+        status = wiced_bt_dev_set_connectability(BTM_CONNECTABLE, BTM_DEFAULT_CONN_WINDOW, BTM_DEFAULT_CONN_INTERVAL);
+        if (status != WICED_BT_SUCCESS){
+			WICED_BT_TRACE("connectability sad: 0x%X", status);
+		}
+
 
         /* TODO - register for GATT callbacks if needed by your application */
         // gatt_status = wiced_bt_gatt_register( app_gatt_callback );
@@ -201,7 +238,7 @@ wiced_result_t app_bt_management_callback( wiced_bt_management_evt_t event, wice
         // app_set_advertisement_data();
 
         /* TODO - start advertisement */
-        // wiced_bt_start_advertisements(BTM_BLE_ADVERT_UNDIRECTED_HIGH, BLE_ADDR_PUBLIC, NULL);
+//         wiced_bt_start_advertisements(BTM_BLE_ADVERT_UNDIRECTED_HIGH, BLE_ADDR_PUBLIC, NULL);
 
         /* TODO - further initialization here */
 
@@ -272,3 +309,15 @@ wiced_result_t app_set_advertisement_data(void)
 #endif
 }
 */
+
+void Heartbeat_task(uint32_t arg) {
+	WICED_BT_TRACE("heartbeat started\n");
+
+	while(1){
+		wiced_hal_gpio_set_pin_output(WICED_GPIO_PIN_LED_2, 0);
+		wiced_rtos_delay_milliseconds(500, ALLOW_THREAD_TO_SLEEP);
+
+		wiced_hal_gpio_set_pin_output(WICED_GPIO_PIN_LED_2, 1);
+		wiced_rtos_delay_milliseconds(500, ALLOW_THREAD_TO_SLEEP);
+	}
+}
