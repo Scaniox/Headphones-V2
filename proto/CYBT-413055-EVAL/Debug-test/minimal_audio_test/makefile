@@ -120,7 +120,8 @@ CY_APP_DEFINES+=-DENABLE_DEBUG=1
 endif
 
 CY_APP_DEFINES+=\
-    -DWICED_BT_TRACE_ENABLE
+    -DWICED_BT_TRACE_ENABLE\
+    -DWICED_X # random define to fix bt managment event type enum so it has restart event, and then the numbers line up correctly with ROM stack on chip
 
 #
 # Components (middleware libraries)

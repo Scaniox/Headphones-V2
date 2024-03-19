@@ -264,11 +264,18 @@ wiced_result_t app_bt_management_callback( wiced_bt_management_evt_t event, wice
 		print_bda(p_event_data->pairing_io_capabilities_br_edr_request.bd_addr);
 		WICED_BT_TRACE("\n");
 
-		p_event_data->pairing_io_capabilities_br_edr_request.local_io_cap = BTM_IO_CAPABILITIES_NONE;
-		p_event_data->pairing_io_capabilities_br_edr_request.oob_data = 0x69;
-		p_event_data->pairing_io_capabilities_br_edr_request.auth_req = BTM_AUTH_SINGLE_PROFILE_NO;
+//		p_event_data->pairing_io_capabilities_br_edr_request.local_io_cap = BTM_IO_CAPABILITIES_NONE;
+//		p_event_data->pairing_io_capabilities_br_edr_request.oob_data = 0x69;
+//		p_event_data->pairing_io_capabilities_br_edr_request.auth_req = BTM_AUTH_SINGLE_PROFILE_NO;
 
 		break;
+
+    case BTM_PAIRING_IO_CAPABILITIES_BLE_REQUEST_EVT:
+    	WICED_BT_TRACE("ble capabilities request from ");
+		print_bda(p_event_data->pairing_io_capabilities_ble_request.bd_addr);
+		WICED_BT_TRACE("\n");
+		break;
+
 
     /* TODO - Handle Bluetooth Management Event
     case BTM_PAIRING_IO_CAPABILITIES_BLE_REQUEST_EVT: // IO capabilities request
@@ -298,6 +305,10 @@ wiced_result_t app_bt_management_callback( wiced_bt_management_evt_t event, wice
      case BTM_BLE_SCAN_STATE_CHANGED_EVT: // Scan State Change
          break;
     */
+
+//    case BTM_RE_START_EVT:
+//    	WICED_BT_TRACE("BTM_RE_START_EVT");
+//    	break;
 
     default:
         WICED_BT_TRACE("Unhandled Bluetooth Management Event: 0x%x (%d)\n", event, event);
